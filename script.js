@@ -160,7 +160,7 @@ const favoriteBtn = Array.from(document.getElementsByClassName("favorite"));
             }
         }
     };
-favoriteBtn.forEach(btn => {
+favoriteBtn.forEach(btn => {    
 btn.addEventListener("click", event => {
     handleFavorite(btn, event);
 })
@@ -265,12 +265,8 @@ const manageDark = () => {
         Array.from(document.getElementsByClassName("navigation"))[0].classList.add("darker");
         Array.from(document.getElementsByClassName("small-head"))[0].classList.add("darker-three");
         Array.from(document.getElementsByClassName("extra-info-container"))[0].classList.add("darker-two");
-        Array.from(document.getElementsByClassName("discord-info"))[0].classList.add("darker");
-        Array.from(document.getElementsByClassName("extra-info"))[0].classList.add("darker");
         Array.from(document.getElementsByClassName("icon-container"))[0].classList.add("darker");
-        Array.from(document.getElementsByClassName("trader-title"))[0].classList.add("darker-two");
-        Array.from(document.getElementsByClassName("small-trader-title"))[0].classList.add("darker-three");
-        document.getElementById("check-trade-container").classList.add("darker-two");
+        Array.from(document.getElementsByClassName("trader-title"))[0].classList.add("darker");
         Array.from(document.getElementsByClassName("your-offer-crates"))[0].classList.add("left-darker");
         Array.from(document.getElementsByClassName("their-offer-crates"))[0].classList.add("right-darker");
         Array.from(document.getElementsByClassName("foot"))[0].classList.add("darker-three");
@@ -283,12 +279,8 @@ const manageDark = () => {
         Array.from(document.getElementsByClassName("navigation"))[0].classList.remove("darker");
         Array.from(document.getElementsByClassName("small-head"))[0].classList.remove("darker-three");
         Array.from(document.getElementsByClassName("extra-info-container"))[0].classList.remove("darker-two");
-        Array.from(document.getElementsByClassName("discord-info"))[0].classList.remove("darker");
-        Array.from(document.getElementsByClassName("extra-info"))[0].classList.remove("darker");
         Array.from(document.getElementsByClassName("icon-container"))[0].classList.remove("darker");
-        Array.from(document.getElementsByClassName("trader-title"))[0].classList.remove("darker-two");
-        Array.from(document.getElementsByClassName("small-trader-title"))[0].classList.remove("darker-three");
-        document.getElementById("check-trade-container").classList.remove("darker-two");
+        Array.from(document.getElementsByClassName("trader-title"))[0].classList.remove("darker");
         Array.from(document.getElementsByClassName("your-offer-crates"))[0].classList.remove("left-darker");
         Array.from(document.getElementsByClassName("their-offer-crates"))[0].classList.remove("right-darker");
         Array.from(document.getElementsByClassName("foot"))[0].classList.remove("darker-three");
@@ -309,5 +301,14 @@ window.onload = () => {
         });
         const btn = fav.children[2]
         addFunc(btn);
+    })
+    favoritedStuff = Array.from(document.getElementsByClassName("favorited"));
+    favorite = Array.from(document.getElementsByClassName("favorite"));
+    favoritedStuff.forEach(item => {
+        favorite.forEach(stuff => {
+            if(item.children[2].dataset.type === stuff.parentElement.children[2].dataset.type) {
+                item.children[2].dataset.num = stuff.parentElement.children[2].dataset.num;
+            }
+        })
     })
 }
