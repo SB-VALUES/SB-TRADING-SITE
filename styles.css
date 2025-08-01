@@ -83,14 +83,14 @@ body {
 }
 .head-img {
     width: 100%;
-    height: 630px;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
 .tint {
     z-index: 3;
     width: 100%;
-    height: 670px;
+    height: 105.5%;
     background-color: rgba(0, 0, 0, 0.481);
     position: absolute;
     display: flex;
@@ -101,13 +101,13 @@ body {
 #check-trade-container {
     width: 100%;
     height: fit-content;
-    border-top: 2px solid black;
     box-sizing: border-box;
     margin-top: 50px;
     display: flex;
     padding: 10px;
-    background-color: rgb(251, 252, 242);
+    background-color: transparent;
     padding-bottom: 100px;
+    position: relative;
 }
 .your-offer-crates, .their-offer-crates {
     width: 100%;
@@ -280,6 +280,8 @@ summary {
     padding: 5px;
 }
 #clear {
+    width: 120px;
+    height: 30px;
     padding: 7px;
     cursor: pointer;
     background: repeating-linear-gradient(
@@ -299,11 +301,13 @@ summary {
 }
 .clear-container {
     width: 100%;
-    height: fit-content;
-    margin-top: 50px;
-    margin-bottom: -20px;
+    height: 100px;
+    margin-top: 5px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 #search, #searchO {
     margin-top: 10px;
@@ -314,8 +318,8 @@ summary {
     border: 1px solid black;
 }
 .search-summary {
-    color: rgb(86, 171, 58);
     font-size: 25px;
+    text-decoration: underline;
 }
 .crate-line {
     width: 100%;
@@ -336,21 +340,19 @@ summary {
 .check-scroll-btn {
     padding: 10px 18px;
     font-size: 17px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: -0.7px;
     border: 2px solid black;
     cursor: pointer;
-    transition: margin-top 0.2s ease-in;
+    transition: margin-top 0.1s ease-in;
     border-radius: 5px;
     background: repeating-linear-gradient(
         45deg,
-        rgb(183, 210, 5) 5% 15%,
-        rgb(207, 232, 16) 15% 25%
+        rgb(6, 136, 6) 10% 20%,
+        rgb(4, 128, 4) 20% 27%
     );
 }
 .check-scroll-btn:hover {
-    margin-top: 2px;
-    color: white;
+    margin-top: 1px;
 }
 .small-head {
     width: 100%;
@@ -363,8 +365,7 @@ summary {
 }
 .extra-info-container {
     width: 100%;
-    height:fit-content;
-    padding: 10px;
+    height: 70%;
     background: linear-gradient(
     45deg,
     rgb(213, 231, 231),
@@ -465,18 +466,7 @@ summary {
     color: green;
     font-weight: 1000;
 }
-@media(min-width: 519.19px) {
-    .bullet-list li{
-        font-size: 15px;
-    }
-    .paragraph p {
-        font-size: 12.5px;
-    }
-}
 @media(max-width: 779.2px) {
-    .paragraph p {
-        font-size: 10px;
-    }
 table {
     font-size: 12px !important;
 }
@@ -484,22 +474,25 @@ table {
 @media (max-width: 519.19px){
  #check-trade-container {
     transform: scale(.9);
-    margin-top: -30px;
- }
-.extra-info-container hr, .extra-info-container p, .line-container, .discord-info {
-    display: none !important;
+    right: 20px;
+}
+.discord-info {
+    transform: scale(.7);
+    margin-bottom: 6px;
 }
 }
 @media (max-width: 451.19px) {
     #check-trade-container {
         transform: scale(.78);
-        margin-top: -80px;
+        margin-top: -40px;
+        right: 30px;
     }
 }
 @media (max-width: 440px) {
     #check-trade-container {
         transform: scale(.6);
-        margin-top: -220px;
+        margin-top: -120px;
+        right: 50px;
     }
     .overflow {
         display: none;
@@ -508,13 +501,13 @@ table {
 @media (max-width: 400px) {
     #check-trade-container {
         transform: scale(0.4);
-        margin-top: -340px;
+        margin-top: -240px;
     }
-    #clear {
+    #clear, .value-list-btn, .dc-btn {
         transform: scale(0.8);
     }
-    #clear:hover {
-        transform: scale(0.76);
+    #clear:hover, .value-list-btn:hover, .dc-btn:hover {
+        transform: scale(0.76) !important;
     }
     .credits-link {
         display: none;
@@ -639,22 +632,17 @@ table {
     align-self: flex-end;
 }
 .discord-info {
-    width: 25%;;
+    width: 70%;
     height: fit-content;
-    background: linear-gradient(
-    rgb(214, 229, 246),
-    rgb(223, 228, 249),
-    rgb(215, 215, 232)
-    );
+    background-color: transparent;
     margin-right: 15px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-self:first baseline;
     margin-top: 10px;
-    border-top: 1px solid black;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+    border: 0.5px solid black;
 }
 .discord-text {
     margin-top: -2px;
@@ -696,6 +684,11 @@ table {
     padding: 20px;
     gap: 15px;
 }
+.links img {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+}
 .links a {
     margin-bottom: -5px;
     color: rgb(99, 98, 98);
@@ -709,11 +702,6 @@ table {
 .links a:hover {
     background-color: rgba(158, 158, 162, 0.29);
     width: fit-content;
-}
-.links img {
-    width: 70px;
-    height: 70px;
-    border-radius: 5px;
 }
 .link-div {
     display: flex;
@@ -766,4 +754,44 @@ color: white !important;
 .right-darker {
     background-color: rgb(57, 3, 3) !important;
     color: white;
+}
+.value-list-btn  {
+    width: 120px;
+    height: 30px;
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(23, 224, 224) 10% 20%,
+        rgb(8, 251, 231) 20% 27%
+    );
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+.value-list-btn:hover {
+    transform: scale(.96);
+}
+.dc-btn {
+    width: 120px;
+    height: 30px;
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(113, 23, 224) 10% 20%,
+        rgb(125, 8, 251) 20% 27%
+    );
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+.dc-btn:hover {
+    transform: scale(.96);
+}
+.info-bullets {
+    text-align: center;
+}
+.info-bullets li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+    width: 200px;
 }
