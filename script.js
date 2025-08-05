@@ -151,11 +151,11 @@ const favoriteBtn = Array.from(document.getElementsByClassName("favorite"));
                 localStorage.setItem("yourFavoriteItems", favoriteList.innerHTML);
                 $clone.children().eq(1).on("click", event => {
                     btn.dataset.favorite = "Favorite";
-                    event.target.parentElement.remove();                    
+                    event.target.parentElement.remove();                
                     localStorage.setItem("yourFavoriteItems", favoriteList.innerHTML);
                 })
             } else {
-                console.log(btn.dataset.favorite)
+                console.log(btn.dataset.favorite);
                 alert("This Item Has Already Been Favorited!");
             }
         }
