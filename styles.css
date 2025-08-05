@@ -795,3 +795,15 @@ color: white !important;
     border-bottom: 1px solid gray;
     width: 200px;
 }
+.crate-icon {
+    width: 35px !important;
+    height: 35px !important;
+    margin-bottom: 10px !important;
+}
+.server-convincer {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
