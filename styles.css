@@ -30,13 +30,14 @@ body {
 .bar1, .bar2 {
     width: 3.5px;
     height: 90%;
-    background-color: rgb(160, 160, 8);
 }
 .bar1 {
     transform: rotate(-30deg);
+    background-color: rgb(113, 23, 224);
 }
 .bar2 {
     transform: rotate(30deg);
+    background-color: rgb(160, 160, 8);
 }
 .navigation {
     height: 27.5px;
@@ -211,15 +212,6 @@ summary {
     color: white;
     position: relative;
     left: 30px;
-    font-style: italic;
-    text-decoration: underline;
-}
-.head-h1::after {
-    content: " With No Ads!";
-    font-size: 10px;
-    position: relative;
-    top: 15px;
-    right: 30px;
 }
 .info-box {
     width: 80%;
@@ -299,7 +291,7 @@ summary {
 #clear:active {
     transform: scale(.935);
 }
-.clear-container {
+.btns-container {
     width: 100%;
     height: 100px;
     margin-top: 5px;
@@ -347,8 +339,8 @@ summary {
     border-radius: 5px;
     background: repeating-linear-gradient(
         45deg,
-        rgb(6, 136, 6) 10% 20%,
-        rgb(4, 128, 4) 20% 27%
+        rgb(185, 179, 6) 10% 20%,
+        rgb(172, 172, 7) 20% 27%
     );
 }
 .check-scroll-btn:hover {
@@ -476,6 +468,9 @@ table {
     transform: scale(.9);
     right: 20px;
 }
+.clear-container {
+    bottom: 50px;
+}
 .discord-info {
     transform: scale(.7);
     margin-bottom: 6px;
@@ -487,6 +482,9 @@ table {
         margin-top: -40px;
         right: 30px;
     }
+    .clear-container {
+        bottom: 100px;
+    }
 }
 @media (max-width: 440px) {
     #check-trade-container {
@@ -497,11 +495,17 @@ table {
     .overflow {
         display: none;
     }
+    .clear-container {
+        bottom: 150px;
+    }
 }
 @media (max-width: 400px) {
     #check-trade-container {
         transform: scale(0.4);
         margin-top: -240px;
+    }
+    .clear-container {
+        bottom: 250px;
     }
     #clear, .value-list-btn, .dc-btn {
         transform: scale(0.8);
@@ -755,23 +759,7 @@ color: white !important;
     background-color: rgb(57, 3, 3) !important;
     color: white;
 }
-.value-list-btn  {
-    width: 120px;
-    height: 30px;
-    background: repeating-linear-gradient(
-        45deg,
-        rgb(23, 224, 224) 10% 20%,
-        rgb(8, 251, 231) 20% 27%
-    );
-    border: 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: transform 0.1s linear;
-}
-.value-list-btn:hover {
-    transform: scale(.96);
-}
-.dc-btn {
+.dc-btn, .value-list-btn {
     width: 120px;
     height: 30px;
     background: repeating-linear-gradient(
@@ -784,7 +772,7 @@ color: white !important;
     cursor: pointer;
     transition: transform 0.1s linear;
 }
-.dc-btn:hover {
+.dc-btn:hover, .value-list-btn:hover {
     transform: scale(.96);
 }
 .info-bullets {
@@ -800,10 +788,10 @@ color: white !important;
     height: 35px !important;
     margin-bottom: 10px !important;
 }
-.server-convincer {
-    border: 1px solid white;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
+.clear-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    position: relative;
 }
