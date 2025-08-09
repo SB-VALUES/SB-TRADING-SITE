@@ -270,6 +270,8 @@ const manageDark = () => {
         Array.from(document.getElementsByClassName("your-offer-crates"))[0].classList.add("left-darker");
         Array.from(document.getElementsByClassName("their-offer-crates"))[0].classList.add("right-darker");
         Array.from(document.getElementsByClassName("foot"))[0].classList.add("darker-three");
+        Array.from(document.getElementsByClassName("bar1"))[0].style.backgroundColor = "rgb(113, 23, 224)";
+        document.getElementById("heading-h1").style.color = "rgb(113, 23, 224)";
         localStorage.setItem("darkStatus", "Enable Dark Mode");
     } else {
         localStorage.setItem("darkStatus", darkModeBtn.textContent);
@@ -284,6 +286,8 @@ const manageDark = () => {
         Array.from(document.getElementsByClassName("your-offer-crates"))[0].classList.remove("left-darker");
         Array.from(document.getElementsByClassName("their-offer-crates"))[0].classList.remove("right-darker");
         Array.from(document.getElementsByClassName("foot"))[0].classList.remove("darker-three");
+        Array.from(document.getElementsByClassName("bar1"))[0].style.backgroundColor = "rgb(102, 22, 137)";
+        document.getElementById("heading-h1").style.color = "rgb(102, 22, 137)";
         localStorage.setItem("darkStatus", "Disable Dark Mode");
     }
 }
