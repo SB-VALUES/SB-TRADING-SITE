@@ -1,0 +1,779 @@
+{
+    "crates": {
+        "Standard Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Standard%20Crate.png?updatedAt=1754162414011",
+            "effects": {
+                "Slime": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204351.png?updatedAt=1747837103110",
+                    "value": 0.017
+                },
+                "Water": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204357.png?updatedAt=1747837102995",
+                    "value": 0.02
+                },
+                "Leaves": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204405.png?updatedAt=1747837103243",
+                    "value": 0.018
+                },
+                "Ink": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204411.png?updatedAt=1747837103317",
+                    "value": 0.02
+                },
+                "ForceField": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204418.png?updatedAt=1747837102994",
+                    "value": 0.018
+                },
+                "Explosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204427.png?updatedAt=1747837103276",
+                    "value": 0.019
+                },
+                "CartoonyWater": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204434.png?updatedAt=1747837103559",
+                    "value": 0.018
+                },
+                "Butterflies": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204440.png?updatedAt=1747837103130",
+                    "value": 0.019
+                },
+                "BlueExplosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204449.png?updatedAt=1747837103408",
+                    "value": 0.019
+                },
+                "Birdz": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204454.png?updatedAt=1747837103268",
+                    "value": 0.021
+                },
+                "PixelatedLightning": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204502.png?updatedAt=1747837105141",
+                    "value": 0.285
+                },
+                "PlasmaBlast": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204510.png?updatedAt=1747837106076",
+                    "value": 0.28
+                },
+                "Painted": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204515.png?updatedAt=1747837106419",
+                    "value": 0.25
+                },
+                "Fireworks": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204525.png?updatedAt=1747837106206",
+                    "value": 0.28
+                },
+                "Poisonous": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204533.png?updatedAt=1747837106293",
+                    "value": 16.25
+                },
+                "Psychic": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204538.png?updatedAt=1747837106438",
+                    "value": 19
+                },
+                "Lightning": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204544.png?updatedAt=1747837106554",
+                    "value": 217.2
+                }
+            }
+        },
+        "Megarock": {
+            "name": "Megarock Crate",
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Megarock%20Crate.png?updatedAt=1754162414616",
+            "effects": {
+                "Stop": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001658.png?updatedAt=1747837167921",
+                    "value": 0.022
+                },
+                "Rocks": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001710.png?updatedAt=1747837168333",
+                    "value": 0.023
+                },
+                "Noob": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001719.png?updatedAt=1747837168478",
+                    "value": 0.019
+                },
+                "Moyai": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001729.png?updatedAt=1747837168063",
+                    "value": 0.024
+                },
+                "Lucky": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001741.png?updatedAt=1747837168487",
+                    "value": 0.022
+                },
+                "Fishy": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001751.png?updatedAt=1747837168383",
+                    "value": 0.022
+                },
+                "Duckie": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001759.png?updatedAt=1747837168367",
+                    "value": 0.023
+                },
+                "Blossom": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001806.png?updatedAt=1747837168069",
+                    "value": 0.026
+                },
+                "Robux": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001814.png?updatedAt=1747837168314",
+                    "value": 0.4
+                },
+                "PixelatedExplosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001820.png?updatedAt=1747837168471",
+                    "value": 0.4
+                },
+                "Music": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001829.png?updatedAt=1747837170369",
+                    "value": 0.36
+                },
+                "Gold": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001837.png?updatedAt=1747837170428",
+                    "value": 0.39
+                },
+                "Glitched": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001844.png?updatedAt=1747837170490",
+                    "value": 0.38
+                },
+                "RGB": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001852.png?updatedAt=1747837170587",
+                    "value": 23
+                },
+                "Windy": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001857.png?updatedAt=1747837170705",
+                    "value": 21.5
+                },
+                "Smoked": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001904.png?updatedAt=1747837170694",
+                    "value": 20
+                },
+                "Slashes": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001911.png?updatedAt=1747837170833",
+                    "value": 255.8
+                },
+                "Glass": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001919.png?updatedAt=1747837170633",
+                    "value": 261.8
+                },
+                "Energized": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001927.png?updatedAt=1747837170715",
+                    "value": 4550
+                }
+            }
+        },
+        "Bob": {
+            "name": "Bob Crate",
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Bob%20Crate.png?updatedAt=1754162414066",
+            "effects": {
+                "Snow": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064336.png?updatedAt=1747837223105",
+                    "value": 0.029
+                },
+                "Sandy": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064351.png?updatedAt=1747837223487",
+                    "value": 0.028
+                },
+                "Retro": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064358.png?updatedAt=1747837223243",
+                    "value": 0.03
+                },
+                "Heart": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064406.png?updatedAt=1747837223334",
+                    "value": 0.03
+                },
+                "Evil": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064415.png?updatedAt=1747837223295",
+                    "value": 0.029
+                },
+                "Bread": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064427.png?updatedAt=1747837223494",
+                    "value": 0.032
+                },
+                "Binary": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064433.png?updatedAt=1747837223250",
+                    "value": 0.029
+                },
+                "Rays": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064529.png?updatedAt=1747837223251",
+                    "value": 0.43
+                },
+                "PixelBubbles": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064538.png?updatedAt=1747837222938",
+                    "value": 0.45
+                },
+                "Light": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064545.png?updatedAt=1747837223236",
+                    "value": 0.45
+                },
+                "Iceshards": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064553.png?updatedAt=1747837225469",
+                    "value": 0.47
+                },
+                "Eye": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064603.png?updatedAt=1747837225481",
+                    "value": 0.44
+                },
+                "Phoenix": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064612.png?updatedAt=1747837225255",
+                    "value": 28.8
+                },
+                "Cursed": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064643.png?updatedAt=1747837225333",
+                    "value": 30.8
+                },
+                "Fractal": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064635.png?updatedAt=1747837225487",
+                    "value": 25
+                },
+                "Gravity": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064622.png?updatedAt=1747837225385",
+                    "value": 26
+                },
+                "Holy": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064652.png?updatedAt=1747837225736",
+                    "value": 325
+                },
+                "Darkness": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064659.png?updatedAt=1747837226421",
+                    "value": 339
+                },
+                "Portal": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064707.png?updatedAt=1747837226899",
+                    "value": 3575
+                }
+            }
+        },
+        "Overkill Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Overkill%20Crate.png?updatedAt=1754162415284",
+            "effects": {
+                "VibrantSupernova": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064805.png?updatedAt=1747837299280",
+                    "value": 38
+                },
+                "SandTornado": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064812.png?updatedAt=1747837299257",
+                    "value": 34
+                },
+                "RainBomb": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064820.png?updatedAt=1747837299104",
+                    "value": 36.5
+                },
+                "ChillingFog": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064829.png?updatedAt=1747837299308",
+                    "value": 35.5
+                },
+                "AquaticGateway": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064836.png?updatedAt=1747837299437",
+                    "value": 33
+                },
+                "ToxicPuddle": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064846.png?updatedAt=1747837299095",
+                    "value": 286.6
+                },
+                "PurpleRapture": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064857.png?updatedAt=1747837299113",
+                    "value": 417.4
+                },
+                "PopstarSpectacle": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064905.png?updatedAt=1747837299241",
+                    "value": 386.6
+                },
+                "HellfireSigil": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064917.png?updatedAt=1747837299431",
+                    "value": 5525
+                }
+            }
+        },
+        "Barzil Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Barzil%20Crate.png?updatedAt=1754162415350",
+            "effects": {
+                "EruptingBricks": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140218.png?updatedAt=1751663196696",
+                    "value": 0.032
+                },
+                "J*bApplication": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140228.png?updatedAt=1751663196940",
+                    "value": 0.058
+                },
+                "PobsLightSnack": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140238.png?updatedAt=1751663196867",
+                    "value": 0.032
+                },
+                "SnoobMigration": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140250.png?updatedAt=1751663196547",
+                    "value": 0.034
+                },
+                "FallingBoulder": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140257.png?updatedAt=1751663196957",
+                    "value": 0.031
+                },
+                "AngryCat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140316.png?updatedAt=1751663196866",
+                    "value": 0.034
+                },
+                "EvilCat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140325.png?updatedAt=1751663196938",
+                    "value": 0.034
+                },
+                "BasketBallExplosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140308.png?updatedAt=1751663196982",
+                    "value": 0.03
+                },
+                "CuriousCat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140334.png?updatedAt=1751663196672",
+                    "value": 0.035
+                },
+                "HelloCat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140343.png?updatedAt=1751663196709",
+                    "value": 0.035
+                },
+                "PonderingOrb": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140350.png?updatedAt=1751663199297",
+                    "value": 0.46
+                },
+                "ClockTowerCrash": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140400.png?updatedAt=1751663199390",
+                    "value": 0.47
+                },
+                "OogsDomination": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140407.png?updatedAt=1751663199413",
+                    "value": 0.46
+                },
+                "PortalMist": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140416.png?updatedAt=1751663199485",
+                    "value": 0.48
+                },
+                "DuelOfTheAges": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140434.png?updatedAt=1751663199470",
+                    "value": 43
+                },
+                "Mortis#1Fan": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140427.png?updatedAt=1751663199494",
+                    "value": 41
+                },
+                "Minefield": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140446.png?updatedAt=1751663199568",
+                    "value": 41
+                },
+                "Pablo'sCrownery": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140536.png?updatedAt=1751663199691",
+                    "value": 479.4
+                },
+                "CRUNCHYExplosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140546.png?updatedAt=1751663199593",
+                    "value": 494.8
+                },
+                "BarzilianNexus": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140554.png?updatedAt=1751663199670",
+                    "value": 7000
+                }
+            }
+        },
+        "Alchemist Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Alchemist%20Crate.png?updatedAt=1754162415055",
+            "effects": {
+                "TomeBurst": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194649.png?updatedAt=1748404331347",
+                    "value": 0.04
+                },
+                "MushroomOutburst": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194655.png?updatedAt=1748404331321",
+                    "value": 0.041
+                },
+                "FloatingCandles": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194703.png?updatedAt=1748404331511",
+                    "value": 0.045
+                },
+                "ElectricField": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194712.png?updatedAt=1748404331434",
+                    "value": 0.046
+                },
+                "BlackFeatherBurst": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194720.png?updatedAt=1748404331319",
+                    "value": 0.041
+                },
+                "StabbingDaggers": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194728.png?updatedAt=1748404331435",
+                    "value": 0.68
+                },
+                "MoonBeams": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194743.png?updatedAt=17484043314407",
+                    "value": 0.7
+                },
+                "CroakingContamination": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194750.png?updatedAt=1748404331524",
+                    "value": 0.64
+                },
+                "CrimsonUproar": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194800.png?updatedAt=1748404331518",
+                    "value": 0.7
+                },
+                "GloomingRunes": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194812.png?updatedAt=1748404331513",
+                    "value": 50
+                },
+                "CosmicGlitter": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194817.png?updatedAt=1748404333952",
+                    "value": 52
+                },
+                "ConjuringInk": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194827.png?updatedAt=1748404333917",
+                    "value": 51
+                },
+                "VirulentCongregation": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194835.png?updatedAt=1748404334082",
+                    "value": 417.4
+                },
+                "DemonicHex": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194859.png?updatedAt=1748404334202",
+                    "value": 1137
+                },
+                "Pandecrownium": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
+                    "value": 15112.5
+                }
+            }
+        },
+        "Easter Packegge": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Easter%20Packegge.png?updatedAt=1754162415394",
+            "effects": {
+                "PastelConfetti": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065956.png?updatedAt=1747837359024",
+                    "value": 0.04
+                },
+                "KiteTakeOff": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070002.png?updatedAt=1747837359671",
+                    "value": 0.042
+                },
+                "FeathersBurst": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070007.png?updatedAt=1747837359425",
+                    "value": 0.04
+                },
+                "ButterflyAscend": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070012.png?updatedAt=1747837359418",
+                    "value": 0.04
+                },
+                "BugsInfestation": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070019.png?updatedAt=1747837359611",
+                    "value": 0.039
+                },
+                "WindTornado": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070026.png?updatedAt=1747837358735",
+                    "value": 0.65
+                },
+                "MarshmallowCritters": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070038.png?updatedAt=1747837359550",
+                    "value": 0.85
+                },
+                "SunBeams": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070032.png?updatedAt=1747837359462",
+                    "value": 0.75
+                },
+                "FloralOutburst": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070043.png?updatedAt=1747837359650",
+                    "value": 57
+                },
+                "CarrotBlast": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070050.png?updatedAt=1747837359698",
+                    "value": 54
+                },
+                "Eastereggsplosion": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070055.png?updatedAt=1747837361347",
+                    "value": 55
+                },
+                "ApproachingStorm": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070102.png?updatedAt=1747837361447",
+                    "value": 812.5
+                },
+                "Easterbasket": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070108.png?updatedAt=1747837362722",
+                    "value": 552.5
+                },
+                "Eastereggtravaganza": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
+                    "value": 9100
+                }
+            }
+        },
+        "StPatricks Pot O Gold": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/StPatricks%20Pot%20O%20Gold.png?updatedAt=1754162416804",
+            "effects": {
+                "DustBomb": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065718.png?updatedAt=1747837398602",
+                    "value": 0.055
+                },
+                "HotCoffee": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065723.png?updatedAt=1747837397484",
+                    "value": 0.054
+                },
+                "Grass&Fireflies": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065730.png?updatedAt=1747837398318",
+                    "value": 0.056
+                },
+                "Clovers": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/clovers.png?updatedAt=1747837559771",
+                    "value": 0.055
+                },
+                "Boots&Hats": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065736.png?updatedAt=1747837398241",
+                    "value": 0.056
+                },
+                "TintedGlass": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065743.png?updatedAt=1747837398145",
+                    "value": 0.8
+                },
+                "GoldenCoins": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065749.png?updatedAt=1747837398498",
+                    "value": 0.79
+                },
+                "GoldenClovers": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065801.png?updatedAt=1747837398235",
+                    "value": 0.9
+                },
+                "Clovers&Coins": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065808.png?updatedAt=1747837398479",
+                    "value": 0.9
+                },
+                "BloxyCharms": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065814.png?updatedAt=1747837398596",
+                    "value": 55
+                },
+                "PotOGold": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065821.png?updatedAt=1747837398608",
+                    "value": 56
+                },
+                "Pinched": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065827.png?updatedAt=1747837399657",
+                    "value": 57
+                },
+                "GoldenHorseShoe": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065832.png?updatedAt=1747837400561",
+                    "value": 55.5
+                },
+                "Groggy": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065838.png?updatedAt=1747837400912",
+                    "value": 432.8
+                },
+                "GoldenHarp": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065847.png?updatedAt=1747837401066",
+                    "value": 583.8
+                },
+                "SaintMarked": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
+                    "value": 14300
+                }
+            }
+        },
+        "Valentines Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Valentines%20Crate.png?updatedAt=1754162417159",
+            "effects": {
+                "Roses": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065025.png?updatedAt=1747837428370",
+                    "value": 0.03
+                },
+                "Chocolate": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065032.png?updatedAt=1747837429126",
+                    "value": 0.031
+                },
+                "ValentinesButterflies": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065038.png?updatedAt=1747837429004",
+                    "value": 0.029
+                },
+                "Candies": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065047.png?updatedAt=1747837428434",
+                    "value": 0.32
+                },
+                "Brokenheart": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065055.png?updatedAt=1747837429088",
+                    "value": 0.35
+                },
+                "CupidsArrow": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065101.png?updatedAt=1747837428996",
+                    "value": 43.3
+                },
+                "Glitter": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065109.png?updatedAt=1747837429142",
+                    "value": 447.8
+                },
+                "Haloheart": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
+                    "value": 2925
+                }
+            }
+        },
+        "Peepmas Giftbox": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Peepmas%20Giftbox.png?updatedAt=1754162415541",
+            "effects": {
+                "Starrynight": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065143.png?updatedAt=1747837470095",
+                    "value": 0.075
+                },
+                "Gifts": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065150.png?updatedAt=1747837470656",
+                    "value": 0.07
+                },
+                "Bells": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065158.png?updatedAt=1747837470646",
+                    "value": 0.07
+                },
+                "Ornament": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065205.png?updatedAt=1747837471117",
+                    "value": 0.068
+                },
+                "CandyCanes": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065213.png?updatedAt=1747837470666",
+                    "value": 0.069
+                },
+                "Stainedglass": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065224.png?updatedAt=1747837470488",
+                    "value": 0.071
+                },
+                "PixelatedSnow": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065230.png?updatedAt=1747837471061",
+                    "value": 1.05
+                },
+                "GoldenSparkles": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065238.png?updatedAt=1747837470657",
+                    "value": 1.0
+                },
+                "Cookies&Milk": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065245.png?updatedAt=1747837471047",
+                    "value": 1.0
+                },
+                "SnowPeep": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065254.png?updatedAt=1747837470664",
+                    "value": 1.1
+                },
+                "Snowball": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065303.png?updatedAt=1747837472867",
+                    "value": 61.6
+                },
+                "NorthernStar": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065310.png?updatedAt=1747837472948",
+                    "value": 65
+                },
+                "Peppermint": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065319.png?updatedAt=1747837473067",
+                    "value": 619.2
+                },
+                "Blizzard": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065327.png?updatedAt=1747837472948",
+                    "value": 552.5
+                },
+                "Sacred": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065334.png?updatedAt=1747837473201",
+                    "value": 650
+                },
+                "Enchanted": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
+                    "value": 7150
+                }
+            }
+        },
+        "JacksCrate": {
+            "name": "Jack's Crate",
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Jack's%20Crate.png?updatedAt=1754162415247",
+            "effects": {
+                "Trollrequiem": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065412.png?updatedAt=1747837504768",
+                    "value": 65
+                },
+                "Runes": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065421.png?updatedAt=1747837503977",
+                    "value": 67
+                },
+                "RealisticEye": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065431.png?updatedAt=1747837504834",
+                    "value": 68
+                },
+                "LavaSkulls": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065438.png?updatedAt=1747837504847",
+                    "value": 69
+                },
+                "FallLeaves": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065445.png?updatedAt=1747837504840",
+                    "value": 68
+                },
+                "CauldronBubbles": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065452.png?updatedAt=1747837504844",
+                    "value": 65
+                },
+                "WitchesSpell": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065500.png?updatedAt=1747837504781",
+                    "value": 545
+                },
+                "ShadowBite": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065507.png?updatedAt=1747837504762",
+                    "value": 540
+                },
+                "Run": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065515.png?updatedAt=1747837504820",
+                    "value": 547
+                },
+                "Crows": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065524.png?updatedAt=1747837504459",
+                    "value": 525
+                },
+                "CrimsonSplash": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
+                    "value": 695
+                },
+                "Batty": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065536.png?updatedAt=1747837506996",
+                    "value": 710
+                },
+                "Abyss": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065543.png?updatedAt=1747837507172",
+                    "value": 735
+                },
+                "EerieFog": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065551.png?updatedAt=1747837507356",
+                    "value": 3000
+                },
+                "JackOLantern": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065615.png?updatedAt=1747837507316",
+                    "value": 3150
+                },
+                "Damned": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
+                    "value": 26400
+                }
+            }
+        },
+        "Guide's Crate": {
+            "icon": "https://ik.imagekit.io/qhig1xz2i/Guide%20Crate.png?updatedAt=1754162414763",
+            "effects": {
+                "Smartcat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070153.png?updatedAt=1747837531697",
+                    "value": 80
+                },
+                "Dumbcat": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070206.png?updatedAt=1747837531859",
+                    "value": 83
+                },
+                "Garbage": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070213.png?updatedAt=1747837531937",
+                    "value": 78
+                },
+                "Minicrit": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070220.png?updatedAt=1747837531922",
+                    "value": 78
+                },
+                "PixelSparkles": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070226.png?updatedAt=1747837532040",
+                    "value": 295
+                },
+                "Chip": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070232.png?updatedAt=1747837532035",
+                    "value": 300
+                },
+                "Divergent": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070240.png?updatedAt=1747837531946",
+                    "value": 1550
+                },
+                "Hitman": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
+                    "value": 5800
+                },
+                "Relude": {
+                    "image": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070254.png?updatedAt=1747837531849",
+                    "value": 33700
+                }
+            }
+        }
+    }
+}
