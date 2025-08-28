@@ -1,0 +1,1373 @@
+[
+{
+    "name": "Slime",
+    "val": 0.016,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204351.png?updatedAt=1747837103110",
+    "rarity": "uncommon"
+},
+{
+    "name": "Water",
+    "val": 0.02,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204357.png?updatedAt=1747837102995",
+    "rarity": "uncommon"
+},
+{
+    "name": "Leaves",
+    "val": 0.018,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204405.png?updatedAt=1747837103243",
+    "rarity": "uncommon"
+},
+{
+    "name": "Ink",
+    "val": 0.02,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204411.png?updatedAt=1747837103317",
+    "rarity": "uncommon"
+},
+{
+    "name": "Forcefield",
+    "val": 0.018,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204418.png?updatedAt=1747837102994",
+    "rarity": "uncommon"
+},
+{
+    "name": "Explosion",
+    "val": 0.019,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204427.png?updatedAt=1747837103276",
+    "rarity": "uncommon"
+},
+{
+    "name": "Cartoony Water",
+    "val": 0.018,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204434.png?updatedAt=1747837103559",
+    "rarity": "uncommon"
+},
+{
+    "name": "Butterflies",
+    "val": 0.019,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204440.png?updatedAt=1747837103130",
+    "rarity": "uncommon"
+},
+{
+    "name": "Blue Explosion",
+    "val": 0.019,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204449.png?updatedAt=1747837103408",
+    "rarity": "uncommon"
+},
+{
+    "name": "Birdz",
+    "val": 0.021,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204454.png?updatedAt=1747837103268",
+    "rarity": "uncommon"
+},
+{
+    "name": "Pixelated Lightning",
+    "val": 0.285,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204502.png?updatedAt=1747837105141",
+"rarity": "rare"
+},
+{
+    "name": "Plasma Blast",
+    "val": 0.28,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204510.png?updatedAt=1747837106076",
+"rarity": "rare"
+},
+{
+    "name": "Painted",
+    "val": 0.25,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204515.png?updatedAt=1747837106419",
+"rarity": "rare"
+},
+{
+    "name": "Fireworks",
+    "val": 0.28,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204525.png?updatedAt=1747837106206",
+"rarity": "rare"
+},
+{
+    "name": "Poisonous",
+    "val": 16.25,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204533.png?updatedAt=1747837106293",
+"rarity": "epic"
+},
+{
+    "name": "Psychic",
+    "val": 19,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204538.png?updatedAt=1747837106438",
+"rarity": "epic"
+},
+{
+    "name": "Lightning",
+    "val": 215.6,
+    "crate": "standard",
+    "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204544.png?updatedAt=1747837106554",
+"rarity": "legendary"
+},
+{
+  "name": "Stop",
+  "val": 0.022,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001658.png?updatedAt=1747837167921",
+  "rarity": "uncommon"
+},
+{
+  "name": "Rocks",
+  "val": 0.023,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001710.png?updatedAt=1747837168333",
+  "rarity": "uncommon"
+},
+{
+  "name": "Noob",
+  "val": 0.019,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001719.png?updatedAt=1747837168478",
+  "rarity": "uncommon"
+},
+{
+  "name": "Moyai",
+  "val": 0.024,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001729.png?updatedAt=1747837168063",
+  "rarity": "uncommon"
+},
+{
+  "name": "Lucky",
+  "val": 0.022,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001741.png?updatedAt=1747837168487",
+  "rarity": "uncommon"
+},
+{
+  "name": "Fishy",
+  "val": 0.022,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001751.png?updatedAt=1747837168383",
+  "rarity": "uncommon"
+},
+{
+  "name": "Duckie",
+  "val": 0.023,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001759.png?updatedAt=1747837168367",
+  "rarity": "uncommon"
+},
+{
+  "name": "Blossom",
+  "val": 0.026,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001806.png?updatedAt=1747837168069",
+  "rarity": "uncommon"
+},
+{
+  "name": "Robux",
+  "val": 0.4,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001814.png?updatedAt=1747837168314",
+"rarity": "rare"
+},
+{
+  "name": "PixelatedExplosion",
+  "val": 0.4,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001820.png?updatedAt=1747837168471",
+"rarity": "rare"
+},
+{
+  "name": "Music",
+  "val": 0.36,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001829.png?updatedAt=1747837170369",
+"rarity": "rare"
+},
+{
+  "name": "Gold",
+  "val": 0.39,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001837.png?updatedAt=1747837170428",
+"rarity": "rare"
+},
+{
+  "name": "Glitched",
+  "val": 0.38,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001844.png?updatedAt=1747837170490",
+"rarity": "rare"
+},
+{
+  "name": "RGB",
+  "val": 23,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001852.png?updatedAt=1747837170587",
+"rarity": "epic"
+},
+{
+  "name": "Windy",
+  "val": 21.5,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001857.png?updatedAt=1747837170705",
+"rarity": "epic"
+},
+{
+  "name": "Smoked",
+  "val": 20,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001904.png?updatedAt=1747837170694",
+"rarity": "epic"
+},
+{
+  "name": "Slashes",
+  "val": 255.8,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001911.png?updatedAt=1747837170833",
+"rarity": "legendary"
+},
+{
+  "name": "Glass",
+  "val": 261.8,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001919.png?updatedAt=1747837170633",
+"rarity": "legendary"
+},
+{
+  "name": "Energized",
+  "val": 4550,
+  "crate": "megarock",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001927.png?updatedAt=1747837170715",
+"rarity": "mythical"
+},
+{
+  "name": "Snow",
+  "val": 0.029,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064336.png?updatedAt=1747837223105",
+  "rarity": "uncommon"
+},
+{
+  "name": "Sandy",
+  "val": 0.028,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064351.png?updatedAt=1747837223487",
+  "rarity": "uncommon"
+},
+{
+  "name": "Retro",
+  "val": 0.03,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064358.png?updatedAt=1747837223243",
+  "rarity": "uncommon"
+},
+{
+  "name": "Heart",
+  "val": 0.03,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064406.png?updatedAt=1747837223334",
+  "rarity": "uncommon"
+},
+{
+  "name": "Evil",
+  "val": 0.029,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064415.png?updatedAt=1747837223295",
+  "rarity": "uncommon"
+},
+{
+  "name": "Bread",
+  "val": 0.36,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064427.png?updatedAt=1747837223494",
+  "rarity": "uncommon"
+},
+{
+  "name": "Binary",
+  "val": 0.029,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064433.png?updatedAt=1747837223250",
+  "rarity": "uncommon"
+},
+{
+  "name": "Rays",
+  "val": 0.43,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064529.png?updatedAt=1747837223251",
+"rarity": "rare"
+},
+{
+  "name": "PixelBubbles",
+  "val": 0.45,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064538.png?updatedAt=1747837222938",
+"rarity": "rare"
+},
+{
+  "name": "Light",
+  "val": 0.45,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064545.png?updatedAt=1747837223236",
+"rarity": "rare"
+},
+{
+  "name": "Iceshards",
+  "val": 0.47,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064553.png?updatedAt=1747837225469",
+"rarity": "rare"
+},
+{
+  "name": "Eye",
+  "val": 0.44,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064603.png?updatedAt=1747837225481",
+"rarity": "rare"
+},
+{
+  "name": "Phoenix",
+  "val": 28.8,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064612.png?updatedAt=1747837225255",
+"rarity": "epic"
+},
+{
+  "name": "Cursed",
+  "val": 30.8,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064643.png?updatedAt=1747837225333",
+"rarity": "epic"
+},
+{
+  "name": "Fractal",
+  "val": 25,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064635.png?updatedAt=1747837225487",
+"rarity": "epic"
+},
+{
+  "name": "Gravity",
+  "val": 26,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064622.png?updatedAt=1747837225385",
+"rarity": "epic"
+},
+{
+  "name": "Holy",
+  "val": 325,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064652.png?updatedAt=1747837225736",
+"rarity": "legendary"
+},
+{
+  "name": "Darkness",
+  "val": 354.2,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064659.png?updatedAt=1747837226421",
+"rarity": "legendary"
+},
+{
+  "name": "Portal",
+  "val": 3575,
+  "crate": "bob",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064707.png?updatedAt=1747837226899",
+"rarity": "mythical"
+},
+{
+  "name": "VibrantSupernova",
+  "val": 38,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064805.png?updatedAt=1747837299280",
+"rarity": "epic"
+},
+{
+  "name": "SandTornado",
+  "val": 34,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064812.png?updatedAt=1747837299257",
+"rarity": "epic"
+},
+{
+  "name": "RainBomb",
+  "val": 36.5,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064820.png?updatedAt=1747837299104",
+"rarity": "epic"
+},
+{
+  "name": "ChillingFog",
+  "val": 35.5,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064829.png?updatedAt=1747837299308",
+"rarity": "epic"
+},
+{
+  "name": "AquaticGateway",
+  "val": 33,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064836.png?updatedAt=1747837299437",
+"rarity": "epic"
+},
+{
+  "name": "ToxicPuddle",
+  "val": 286.6,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064846.png?updatedAt=1747837299095",
+"rarity": "legendary"
+},
+{
+  "name": "PurpleRapture",
+  "val": 417.4,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064857.png?updatedAt=1747837299113",
+"rarity": "legendary"
+},
+{
+  "name": "PopstarSpectacle",
+  "val": 386.6,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064905.png?updatedAt=1747837299241",
+"rarity": "legendary"
+},
+{
+  "name": "HellfireSigil",
+  "val": 5525,
+  "crate": "overkill",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064917.png?updatedAt=1747837299431",
+"rarity": "mythical"
+},
+{
+"name": "EruptingBricks",
+"val": 0.032,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140218.png?updatedAt=1751663196696",
+"rarity": "uncommon"
+},
+{
+"name": "J*bApplication",
+"val": 0.058,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140228.png?updatedAt=1751663196940",
+"rarity": "uncommon"
+},
+{
+"name": "PobsLightSnack",
+"val": 0.032,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140238.png?updatedAt=1751663196867",
+"rarity": "uncommon"
+},
+{
+"name": "SnoobMigration",
+"val": 0.034,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140250.png?updatedAt=1751663196547",
+"rarity": "uncommon"
+},
+{
+"name": "FallingBoulder",
+"val": 0.031,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140257.png?updatedAt=1751663196957",
+"rarity": "uncommon"
+},
+{
+"name": "AngryCat",
+"val": 0.034,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140316.png?updatedAt=1751663196866",
+"rarity": "uncommon"
+},
+{
+"name": "EvilCat",
+"val": 0.034,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140325.png?updatedAt=1751663196938",
+"rarity": "uncommon"
+},
+{
+"name": "BasketBallExplosion",
+"val": 0.03,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140308.png?updatedAt=1751663196982",
+"rarity": "uncommon"
+},
+{
+"name": "CuriousCat",
+"val": 0.035,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140334.png?updatedAt=1751663196672",
+"rarity": "uncommon"
+},
+{
+"name": "HelloCat",
+"val": 0.035,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140343.png?updatedAt=1751663196709",
+"rarity": "uncommon"
+},
+{
+"name": "PonderingOrb",
+"val": 0.46,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140350.png?updatedAt=1751663199297",
+"rarity": "rare"
+},
+{
+"name": "ClockTowerCrash",
+"val": 0.47,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140400.png?updatedAt=1751663199390",
+"rarity": "rare"
+},
+{
+"name": "OogsDomination",
+"val": 0.46,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140407.png?updatedAt=1751663199413",
+"rarity": "rare"
+},
+{
+"name": "PortalMist",
+"val": 0.48,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140416.png?updatedAt=1751663199485",
+"rarity": "rare"
+},
+{
+"name": "DuelOfTheAges",
+"val": 43,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140434.png?updatedAt=1751663199470",
+"rarity": "epic"
+},
+{
+"name": "Mortis#1Fan",
+"val": 41,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140427.png?updatedAt=1751663199494",
+"rarity": "epic"
+},
+{
+"name": "Minefield",
+"val": 41,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140446.png?updatedAt=1751663199568",
+"rarity": "epic"
+},
+{
+"name": "Pablo'sCrownery",
+"val": 479.4,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140536.png?updatedAt=1751663199691",
+"rarity": "legendary"
+},
+{
+"name": "CRUNCHYExplosion",
+"val": 494.8,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140546.png?updatedAt=1751663199593",
+"rarity": "legendary"
+},
+{
+"name": "BarzilianNexus",
+"val": 7000,
+"crate": "barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140554.png?updatedAt=1751663199670",
+"rarity": "mythical"
+},
+{
+"name": "StabbingNails",
+"val": 0.041,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075001.png?updatedAt=1755270198542",
+"rarity": "uncommon"
+},
+{
+"name": "RockyPrison",
+"val": 0.041,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075017.png?updatedAt=1755270198548",
+"rarity": "uncommon"
+},
+{
+"name": "LoomingFog",
+"val": 0.042,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075030.png?updatedAt=1755270198508",
+"rarity": "uncommon"
+},
+{
+"name": "Defenestration",
+"val": 0.04,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075043.png?updatedAt=1755270198328",
+"rarity": "uncommon"
+},
+{
+"name": "BurstOfFlame",
+"val": 0.043,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075056.png?updatedAt=1755270198400",
+"rarity": "uncommon"
+},
+{
+"name": "TheCoolerDefault",
+"val": 0.041,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075117.png?updatedAt=1755270198384",
+"rarity": "uncommon"
+},
+{
+"name": "IntergalacticSparkles",
+"val": 0.042,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075149.png?updatedAt=1755270198705",
+"rarity": "uncommon"
+},
+{
+"name": "BarzilianMoola",
+"val": 0.042,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075412.png?updatedAt=1755270198428",
+"rarity": "uncommon"
+},
+{
+"name": "ClutteredWhirlwind",
+"val": 0.7,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075421.png?updatedAt=1755270198491",
+"rarity": "rare"
+},
+{
+"name": "GoldenMoai",
+"val": 0.71,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075436.png?updatedAt=1755270198929",
+"rarity": "rare"
+},
+{
+"name": "HighRoller",
+"val": 0.72,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075447.png?updatedAt=1755270200788",
+"rarity": "rare"
+},
+{
+"name": "DavesStrike",
+"val": 0.7,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075459.png?updatedAt=1755270200880",
+"rarity": "rare"
+},
+{
+"name": "Shackled",
+"val": 52,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075511.png?updatedAt=1755270200910",
+"rarity": "epic"
+},
+{
+"name": "Zeus's Might",
+"val": 51,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075537.png?updatedAt=1755270200915",
+"rarity": "epic"
+},
+{
+"name": "Demolitionist",
+"val": 50,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075549.png?updatedAt=1755270200949",
+"rarity": "epic"
+},
+{
+"name": "InfernalFlare",
+"val": 650,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075602.png?updatedAt=1755270201012",
+"rarity": "legendary"
+},
+{
+"name": "IntergalacticClouds",
+"val": 747.5,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075613.png?updatedAt=1755270201075",
+"rarity": "legendary"
+},
+{
+"name": "Dodecanado",
+"val": 9425,
+"crate": "evil-barzil",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
+"rarity": "mythical"
+},
+{
+"name": "TomeBurst",
+"val": 0.04,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194649.png?updatedAt=1748404331347",
+"rarity": "uncommon"
+},
+{
+"name": "MushroomOutburst",
+"val": 0.041,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194655.png?updatedAt=1748404331321",
+"rarity": "uncommon"
+},
+{
+"name": "FloatingCandles",
+"val": 0.045,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194703.png?updatedAt=1748404331511",
+"rarity": "uncommon"
+},
+{
+"name": "ElectricField",
+"val": 0.046,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194712.png?updatedAt=1748404331434",
+"rarity": "uncommon"
+},
+{
+"name": "BlackFeatherBurst",
+"val": 0.041,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194720.png?updatedAt=1748404331319",
+"rarity": "uncommon"
+},
+{
+"name": "StabbingDaggers",
+"val": 0.68,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194728.png?updatedAt=1748404331435",
+"rarity": "rare"
+},
+{
+"name": "MoonBeams",
+"val": 0.7,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194743.png?updatedAt=17484043314407",
+"rarity": "rare"
+},
+{
+"name": "CroakingContamination",
+"val": 0.64,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194750.png?updatedAt=1748404331524",
+"rarity": "rare"
+},
+{
+"name": "CrimsonUproar",
+"val": 0.7,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194800.png?updatedAt=1748404331518",
+"rarity": "rare"
+},
+{
+"name": "GloomingRunes",
+"val": 50,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194812.png?updatedAt=1748404331513",
+"rarity": "epic"
+},
+{
+"name": "CosmicGlitter",
+"val": 52,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194817.png?updatedAt=1748404333952",
+"rarity": "epic"
+},
+{
+"name": "ConjuringInk",
+"val": 51,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194827.png?updatedAt=1748404333917",
+"rarity": "epic"
+},
+{
+"name": "VirulentCongregation",
+"val": 417.4,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194835.png?updatedAt=1748404334082",
+"rarity": "legendary"
+},
+{
+"name": "DemonicHex",
+"val": 1137,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194859.png?updatedAt=1748404334202",
+"rarity": "legendary"
+},
+{
+"name": "Pandecrownium",
+"val": 16250,
+"crate": "alchemist",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
+"rarity": "mythical"
+},
+{
+"name": "PastelConfetti",
+"val": 0.04,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065956.png?updatedAt=1747837359024",
+"rarity": "uncommon"
+},
+{
+"name": "KiteTakeOff",
+"val": 0.042,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070002.png?updatedAt=1747837359671",
+"rarity": "uncommon"
+},
+{
+"name": "FeathersBurst",
+"val": 0.04,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070007.png?updatedAt=1747837359425",
+"rarity": "uncommon"
+},
+{
+"name": "ButterflyAscend",
+"val": 0.04,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070012.png?updatedAt=1747837359418",
+"rarity": "uncommon"
+},
+{
+"name": "BugsInfestation",
+"val": 0.039,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070019.png?updatedAt=1747837359611",
+"rarity": "uncommon"
+},
+{
+"name": "WindTornado",
+"val": 0.65,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070026.png?updatedAt=1747837358735",
+"rarity": "rare"
+},
+{
+"name": "MarshmallowCritters",
+"val": 0.85,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070038.png?updatedAt=1747837359550",
+"rarity": "rare"
+},
+{
+"name": "SunBeams",
+"val": 0.75,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070032.png?updatedAt=1747837359462",
+"rarity": "rare"
+},
+{
+"name": "FloralOutburst",
+"val": 57,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070043.png?updatedAt=1747837359650",
+"rarity": "epic"
+},
+{
+"name": "CarrotBlast",
+"val": 54,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070050.png?updatedAt=1747837359698",
+"rarity": "epic"
+},
+{
+"name": "Eastereggsplosion",
+"val": 55,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070055.png?updatedAt=1747837361347",
+"rarity": "epic"
+},
+{
+"name": "ApproachingStorm",
+"val": 812.5,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070102.png?updatedAt=1747837361447",
+"rarity": "legendary"
+},
+{
+"name": "Easterbasket",
+"val": 552.5,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070108.png?updatedAt=1747837362722",
+"rarity": "legendary"
+},
+{
+"name": "Eastereggtravaganza",
+"val": 9100,
+"crate": "easter",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
+"rarity": "mythical"
+},
+{
+"name": "DustBomb",
+"val": 0.055,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065718.png?updatedAt=1747837398602",
+"rarity": "uncommon"
+},
+{
+"name": "HotCoffee",
+"val": 0.054,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065723.png?updatedAt=1747837397484",
+"rarity": "uncommon"
+},
+{
+"name": "Grass&Fireflies",
+"val": 0.056,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065730.png?updatedAt=1747837398318",
+"rarity": "uncommon"
+},
+{
+"name": "Clovers",
+"val": 0.055,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/clovers.png?updatedAt=1747837559771",
+"rarity": "uncommon"
+},
+{
+"name": "Boots&Hats",
+"val": 0.056,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065736.png?updatedAt=1747837398241",
+"rarity": "uncommon"
+},
+{
+"name": "TintedGlass",
+"val": 0.8,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065743.png?updatedAt=1747837398145",
+"rarity": "rare"
+},
+{
+"name": "GoldenCoins",
+"val": 0.79,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065749.png?updatedAt=1747837398498",
+"rarity": "rare"
+},
+{
+"name": "GoldenClovers",
+"val": 0.9,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065801.png?updatedAt=1747837398235",
+"rarity": "rare"
+},
+{
+"name": "Clovers&Coins",
+"val": 0.9,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065808.png?updatedAt=1747837398479",
+"rarity": "rare"
+},
+{
+"name": "BloxyCharms",
+"val": 55,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065814.png?updatedAt=1747837398596",
+"rarity": "epic"
+},
+{
+"name": "Pot o'Gold",
+"val": 56,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065821.png?updatedAt=1747837398608",
+"rarity": "epic"
+},
+{
+"name": "Pinched",
+"val": 57,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065827.png?updatedAt=1747837399657",
+"rarity": "epic"
+},
+{
+"name": "GoldenHorseShoe",
+"val": 55.5,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065832.png?updatedAt=1747837400561",
+"rarity": "epic"
+},
+{
+"name": "Groggy",
+"val": 432.8,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065838.png?updatedAt=1747837400912",
+"rarity": "legendary"
+},
+{
+"name": "GoldenHarp",
+"val": 583.8,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065847.png?updatedAt=1747837401066",
+"rarity": "legendary"
+},
+{
+"name": "SaintMarked",
+"val": 15275,
+"crate": "patrick",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
+"rarity": "mythical"
+},
+{
+  "name": "Roses",
+  "val": 0.03,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065025.png?updatedAt=1747837428370",
+"rarity": "uncommon"
+},
+{
+  "name": "Chocolate",
+  "val": 0.031,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065032.png?updatedAt=1747837429126",
+"rarity": "uncommon"
+},
+{
+  "name": "ValentinesButterflies",
+  "val": 0.029,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065038.png?updatedAt=1747837429004",
+"rarity": "uncommon"
+},
+{
+  "name": "Candies",
+  "val": 0.32,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065047.png?updatedAt=1747837428434",
+"rarity": "rare"
+},
+{
+  "name": "Brokenheart",
+  "val": 0.35,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065055.png?updatedAt=1747837429088",
+"rarity": "rare"
+},
+{
+  "name": "CupidsArrow",
+  "val": 43.3,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065101.png?updatedAt=1747837428996",
+"rarity": "epic"
+},
+{
+  "name": "Glitter",
+  "val": 447.8,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065109.png?updatedAt=1747837429142",
+"rarity": "legendary"
+},
+{
+  "name": "Haloheart",
+  "val": 2925,
+  "crate": "valentines",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285"
+},
+{
+  "name": "Starrynight",
+  "val": 0.075,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065143.png?updatedAt=1747837470095",
+"rarity": "uncommon"
+},
+{
+  "name": "Gifts",
+  "val": 0.07,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065150.png?updatedAt=1747837470656",
+"rarity": "uncommon"
+},
+{
+  "name": "Bells",
+  "val": 0.07,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065158.png?updatedAt=1747837470646",
+"rarity": "uncommon"
+},
+{
+  "name": "Ornament",
+  "val": 0.068,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065205.png?updatedAt=1747837471117",
+"rarity": "uncommon"
+},
+{
+  "name": "CandyCanes",
+  "val": 0.069,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065213.png?updatedAt=1747837470666",
+"rarity": "uncommon"
+},
+{
+  "name": "Stainedglass",
+  "val": 0.071,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065224.png?updatedAt=1747837470488",
+"rarity": "uncommon"
+},
+{
+  "name": "PixelatedSnow",
+  "val": 1.05,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065230.png?updatedAt=1747837471061",
+"rarity": "rare"
+},
+{
+  "name": "GoldenSparkles",
+  "val": 1,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065238.png?updatedAt=1747837470657",
+"rarity": "rare"
+},
+{
+  "name": "Cookies&Milk",
+  "val": 1,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065245.png?updatedAt=1747837471047",
+"rarity": "rare"
+},
+{
+  "name": "SnowPeep",
+  "val": 1.1,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065254.png?updatedAt=1747837470664",
+"rarity": "rare"
+},
+{
+  "name": "Snowball",
+  "val": 61.6,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065303.png?updatedAt=1747837472867",
+"rarity": "epic"
+},
+{
+  "name": "NorthernStar",
+  "val": 65,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065310.png?updatedAt=1747837472948",
+"rarity": "epic"
+},
+{
+  "name": "Peppermint",
+  "val": 619.2,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065319.png?updatedAt=1747837473067",
+"rarity": "legendary"
+},
+{
+  "name": "Blizzard",
+  "val": 552.5,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065327.png?updatedAt=1747837472948",
+"rarity": "legendary"
+},
+{
+  "name": "Sacred",
+  "val": 650,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065334.png?updatedAt=1747837473201",
+"rarity": "legendary"
+},
+{
+  "name": "Enchanted",
+  "val": 7150,
+  "crate": "peepmas",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
+"rarity": "mythical"
+},
+{
+  "name": "Trollrequiem",
+  "val": 15,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065412.png?updatedAt=1747837504768",
+"rarity": "uncommon"
+},
+{
+  "name": "Runes",
+  "val": 14.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065421.png?updatedAt=1747837503977",
+"rarity": "uncommon"
+},
+{
+  "name": "RealisticEye",
+  "val": 14.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065431.png?updatedAt=1747837504834",
+"rarity": "uncommon"
+},
+{
+  "name": "LavaSkulls",
+  "val": 15,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065438.png?updatedAt=1747837504847",
+"rarity": "uncommon"
+},
+{
+  "name": "FallLeaves",
+  "val": 14.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065445.png?updatedAt=1747837504840",
+"rarity": "uncommon"
+},
+{
+  "name": "CauldronBubbles",
+  "val": 12,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065452.png?updatedAt=1747837504844",
+"rarity": "uncommon"
+},
+{
+  "name": "Witch'sSpell",
+  "val": 56.8,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065500.png?updatedAt=1747837504781",
+"rarity": "rare"
+},
+{
+  "name": "ShadowBite",
+  "val": 56.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065507.png?updatedAt=1747837504762",
+"rarity": "rare"
+},
+{
+  "name": "Run",
+  "val": 57,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065515.png?updatedAt=1747837504820",
+"rarity": "rare"
+},
+{
+  "name": "Crows",
+  "val": 55,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065524.png?updatedAt=1747837504459",
+"rarity": "rare"
+},
+{
+  "name": "CrimsonSplash",
+  "val": 695,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
+"rarity": "rare"
+},
+{
+  "name": "Batty",
+  "val": 710,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065536.png?updatedAt=1747837506996",
+"rarity": "epic"
+},
+{
+  "name": "Abyss",
+  "val": 735,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065543.png?updatedAt=1747837507172",
+"rarity": "epic"
+},
+{
+  "name": "EerieFog",
+  "val": 1950,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065551.png?updatedAt=1747837507356",
+"rarity": "legendary"
+},
+{
+  "name": "JackO'Lantern",
+  "val": 2112.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065615.png?updatedAt=1747837507316",
+"rarity": "legendary"
+},
+{
+  "name": "Damned",
+  "val": 17062.5,
+  "crate": "jack",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
+"rarity": "mythical"
+},
+{
+  "name": "Smartcat",
+  "val": 80,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070153.png?updatedAt=1747837531697",
+"rarity": "uncommon"
+},
+{
+  "name": "Dumbcat",
+  "val": 83,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070206.png?updatedAt=1747837531859",
+"rarity": "uncommon"
+},
+{
+  "name": "Garbage",
+  "val": 78,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070213.png?updatedAt=1747837531937",
+"rarity": "uncommon"
+},
+{
+  "name": "Minicrit",
+  "val": 78,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070220.png?updatedAt=1747837531922",
+"rarity": "uncommon"
+},
+{
+  "name": "PixelSparkles",
+  "val": 295,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070226.png?updatedAt=1747837532040",
+"rarity": "rare"
+},
+{
+  "name": "Chip",
+  "val": 300,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070232.png?updatedAt=1747837532035",
+"rarity": "rare"
+},
+{
+  "name": "Divergent",
+  "val": 1550,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070240.png?updatedAt=1747837531946",
+"rarity": "epic"
+},
+{
+  "name": "Hitman",
+  "val": 5800,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
+"rarity": "legendary"
+},
+{
+  "name": "Relude",
+  "val": 42900,
+  "crate": "guide",
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070254.png?updatedAt=1747837531849",
+"rarity": "mythical"
+}
+]
