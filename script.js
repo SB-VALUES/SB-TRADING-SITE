@@ -3,6 +3,7 @@ const offerLists = Array.from(document.getElementsByClassName("offer-list"));
 const valueList = document.getElementById("value-list");
 const search = document.getElementById("search");
 let items;
+const clear = document.getElementById("clear-btn");
 let tableItems;
 const yourVal = document.getElementById("your-val");
 const theirVal = document.getElementById("their-val");
@@ -388,6 +389,20 @@ window.onload = () => {
         search.value = "";
         searchFunc();
     });
+    clear.addEventListener("click", () => {
+        tVal = 0;
+        yVal = 0;
+        theirVal.textContent = `${tVal}`;
+        yourVal.textContent = `${yVal}`;
+        obj = {};
+        objO = {};
+        search.value = "";
+        searchFunc();
+        wfl.textContent = "FAIR";
+        offerLists.forEach(list => {
+            list.innerHTML = "";
+        })
+    })
     })
     }
 const darkMode = document.getElementById("dark-btn");
@@ -421,3 +436,4 @@ const darkFunc = event => {
 }
 darkMode.addEventListener("click", darkFunc);
 smallDarkMode.addEventListener("click", darkFunc);
+
