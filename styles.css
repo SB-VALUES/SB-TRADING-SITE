@@ -12,6 +12,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     width: 100%;
+    overflow-x: hidden;
 }
 .head {
     width: 100%;
@@ -249,23 +250,60 @@ button {
     color: black;
 }
 @media (max-width: 546.4px) {
-    .item-selection-container {
+    .item-selection-container, .values {
         transform: scale(0.9);
     }
 }
 @media (max-width: 500px) {
-    .item-selection-container {
+    .item-selection-container, .values {
         transform: scale(0.8);
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 496px) {
     .item-selection-container {
-        flex-direction: column;
+        transform: scale(0.7);
+        width: 130% !important;
+        margin-left: -47px !important;
+        margin-top: -90px;
+        margin-bottom: -70px;
     }
-    .item-selection {
-        width: 100% !important;
-        margin-top: 20px !important;
+    .values {
+        transform: scale(0.7);
+        width: 130% !important;
+        margin-left: -73px !important;
     }
+}
+@media (max-width: 350px) {
+
+  .item-selection-container {
+        transform: scale(0.6);
+        width: 150% !important;
+        margin-left: -80px !important;
+        margin-top: -125px;
+        margin-bottom: -120px;
+    }
+    .values {
+        transform: scale(0.6);
+        width: 150% !important;
+        margin-left: -89px !important;
+    }
+}
+@media (max-width: 290px) {
+    .item-selection-container {
+        transform: scale(0.5);
+        width: 180% !important;
+        margin-left: -80px !important;
+        margin-top: -145px; 
+        margin-bottom: -155px;
+    }
+    .values {
+        transform: scale(0.5);
+        width: 180% !important;
+        margin-left: -80px !important;
+    }
+}
+@media (max-width: 450px) {
+
 }
 @media (max-width: 1000px) {
     .fixed, .head-img, .tint {
@@ -355,7 +393,6 @@ button {
     width: 90%;
     margin: auto;
     padding: 0 2% 20px 2%;
-    overflow-x: scroll;
     height: fit-content;
     border: 1px solid black;
     margin-top: 10px;
@@ -407,6 +444,9 @@ button {
     border: 1px solid black;
     transition: transform 0.1s linear;
 }
+#clear-btn {
+    margin-right: 10px;
+}
 #clear-btn:hover, .remove-btn:hover, .remove-a:hover, .image-btn:hover {
     transform: scale(.96);
 }
@@ -441,6 +481,10 @@ button {
     height: fit-content;
     display: flex;
     flex-direction: column;
+    transition: transform 0.1s ease-in;
+}
+.hit-effect:hover {
+    transform: translateY(2px);
 }
 .fav-btn {
     width: 150px;
