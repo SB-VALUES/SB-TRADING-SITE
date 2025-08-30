@@ -904,14 +904,14 @@
 },
 {
 "name": "Easterbasket",
-"val": 552.5,
+"val": 585,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070108.png?updatedAt=1747837362722",
 "rarity": "legendary"
 },
 {
 "name": "Eastereggtravaganza",
-"val": 9100,
+"val": 9750,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
 "rarity": "mythical"
@@ -1016,7 +1016,7 @@
 },
 {
 "name": "GoldenHarp",
-"val": 583.8,
+"val": 650,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065847.png?updatedAt=1747837401066",
 "rarity": "legendary"
