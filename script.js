@@ -31,39 +31,10 @@ let crates = [
 let obj = {};
 let objO = {};
 let favArr = [];
-window.onload = () => {
-    let darkMarker = localStorage.getItem("darkMarker");
-    if(darkMarker === "Disable Darkmode") {
-    dark.forEach(dar => {
-        if(dar.classList.contains("d-1")) {
-            dar.classList.add("dark-1");
-        } else if(dar.classList.contains("d-2")) {
-            dar.classList.add("dark-2");
-        } else {
-            dar.classList.add("dark-3")
-        }
-    });
-        Array.from(document.getElementsByClassName("darkBtn")).forEach(btn => {
-            btn.textContent = "Disable Darkmode";
-        });
-    } else {
-    dark.forEach(dar => {
-        if(dar.classList.contains("d-1")) {
-            dar.classList.remove("dark-1");
-        } else if(dar.classList.contains("d-2")) {
-            dar.classList.remove("dark-2");
-        } else {
-            dar.classList.remove("dark-3")
-        }
-    })
-        Array.from(document.getElementsByClassName("darkBtn")).forEach(btn => {
-            btn.textContent = "Enable Darkmode";
-        });
-    };
     itemSelection.forEach(box => {
         box.innerHTML += `
     <div class="crate-break">
-        <h4>Favorites</h4><i class="fa fa-star" style="color: rgba(236, 207, 19, 1)"></i><div class="crate-line"></div>
+        <h4>Favorites</h4><i class="fa fa-star" style="color: rgba(250, 247, 66, 1)"></i><div class="crate-line"></div>
     </div>
     <div class="crate-items favorites">
     
@@ -99,7 +70,7 @@ window.onload = () => {
 
     </div>
     <div class="crate-break">
-        <h4>Evil</h4><h4>Barzil</h4><h4>Crate</h4><img src="https://ik.imagekit.io/qhig1xz2i/Evil%20Barzil%20Crate.png?updatedAt=1755272068468" class="crate-icon"><div class="crate-line"></div>
+        <h4>Evil</h4><h4>Barzil</h4><h4>Crate</h4><img src="https://ik.imagekit.io/qhig1xz2i/Evil%20Barzil%20Crate.png?updatedAt=1756535837855" class="crate-icon"><div class="crate-line"></div>
     </div>
     <div class="crate-items evil-barzil">
 
@@ -185,8 +156,11 @@ window.onload = () => {
             itemHtml.innerHTML += `
             <div class="hit-effect">
                 <img src="${item.url}">
+                <span class="rarity"><i class="fa fa-gem"></i><p>${item.rarity}</p></span>
+                <span class="hit-effect-info gold"><i class="fa fa-coins"></i><p>${item.val}</p></span>
+                <hr style="width: 80%; border-color: black">
                 <button class="fav-btn ${item.name}">Favorite</button>
-                <button class="add" data-type="${item.name}" data-num="${item.val}">Add</button>
+                <button class="add" data-rare="${item.rarity}" data-type="${item.name}" data-num="${item.val}">Add</button>
             </div>`
             })
             }
@@ -306,13 +280,13 @@ window.onload = () => {
                 clone.classList.add("favorited");
                 itemSelection[1].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[1].getElementsByClassName("favorited")).forEach(favorite => {
-                    favorite.children[1].textContent = "Unfavorite";
-                    favorite.children[1].onclick = e => {
+                    favorite.children[4].textContent = "Unfavorite";
+                    favorite.children[4].onclick = e => {
                         e.target.parentElement.remove();
-                        Array.from(itemSelection[1].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[2].dataset.type)).classList.remove("favorite");
+                        Array.from(itemSelection[1].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[5].dataset.type)).classList.remove("favorite");
                         localStorage.setItem("favorite-itemsO", itemSelection[1].querySelector(".favorites").innerHTML);
                     }
-                    favorite.children[2].addEventListener("click", addFunc);
+                    favorite.children[5].addEventListener("click", addFunc);
                     localStorage.setItem("favorite-itemsO", itemSelection[1].querySelector(".favorites").innerHTML);
                 })
             }
@@ -325,51 +299,57 @@ window.onload = () => {
                 clone.classList.add("favorited");
                 itemSelection[0].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[0].getElementsByClassName("favorited")).forEach(favorite => {
-                    favorite.children[1].textContent = "Unfavorite";
-                    favorite.children[1].onclick = e => {
+                    favorite.children[4].textContent = "Unfavorite";
+                    favorite.children[4].onclick = e => {
                         e.target.parentElement.remove();
-                        Array.from(itemSelection[0].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[2].dataset.type)).classList.remove("favorite");
+                        Array.from(itemSelection[0].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[5].dataset.type)).classList.remove("favorite");
                         localStorage.setItem("favorite-items", itemSelection[0].querySelector(".favorites").innerHTML);
                     }
-                    favorite.children[2].addEventListener("click", addFunc);
+                    favorite.children[5].addEventListener("click", addFunc);
                     localStorage.setItem("favorite-items", itemSelection[0].querySelector(".favorites").innerHTML);
                 })
             }
             }
         }
+        const local_storage_version = `v1`;
+        const savedVersion = localStorage.getItem("ls_v");
+        if(local_storage_version !== savedVersion) {
+            localStorage.clear();
+            localStorage.setItem("ls_v", local_storage_version);
+        }
         itemSelection[1].querySelector(".favorites").innerHTML = localStorage.getItem("favorite-itemsO");
         Array.from(itemSelection[1].getElementsByClassName("favorited")).forEach(favorite => {
             Array.from(itemSelection[1].querySelectorAll(".fav-btn")).forEach(elem => {
-                if(elem.parentElement.children[2].dataset.type === favorite.children[2].dataset.type) {
+                if(elem.parentElement.children[5].dataset.type === favorite.children[5].dataset.type) {
                     elem.classList.add("favorite");
-                    favorite.children[2].dataset.num = elem.parentElement.children[2].dataset.num;
+                    favorite.children[5].dataset.num = elem.parentElement.children[5].dataset.num;
                 }
             })
-            favorite.children[1].onclick = e => {
+            favorite.children[4].onclick = e => {
                 e.target.parentElement.remove();
-                Array.from(itemSelection[1].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[2].dataset.type)).classList.remove("favorite");
+                Array.from(itemSelection[1].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[5].dataset.type)).classList.remove("favorite");
                 localStorage.setItem("favorite-itemsO", itemSelection[1].querySelector(".favorites").innerHTML);
             }
         })
         Array.from(itemSelection[1].getElementsByClassName("favorited")).forEach(btn => {
-            btn.children[2].addEventListener("click", addFunc);
+            btn.children[5].addEventListener("click", addFunc);
         })
         itemSelection[0].querySelector(".favorites").innerHTML = localStorage.getItem("favorite-items");
         Array.from(itemSelection[0].getElementsByClassName("favorited")).forEach(favorite => {
             Array.from(itemSelection[0].querySelectorAll(".fav-btn")).forEach(elem => {
-                if(elem.parentElement.children[2].dataset.type === favorite.children[2].dataset.type) {
+                if(elem.parentElement.children[5].dataset.type === favorite.children[5].dataset.type) {
                     elem.classList.add("favorite");
-                    favorite.children[2].dataset.num = elem.parentElement.children[2].dataset.num;
+                    favorite.children[5].dataset.num = elem.parentElement.children[5].dataset.num;
                 }
             })
-            favorite.children[1].onclick = e => {
+            favorite.children[4].onclick = e => {
                 e.target.parentElement.remove();
-                Array.from(itemSelection[0].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[2].dataset.type)).classList.remove("favorite");
+                Array.from(itemSelection[0].querySelectorAll(".fav-btn")).find(elem => elem.classList.contains(favorite.children[5].dataset.type)).classList.remove("favorite");
                 localStorage.setItem("favorite-items", itemSelection[0].querySelector(".favorites").innerHTML);
             }
         })
         Array.from(itemSelection[0].getElementsByClassName("favorited")).forEach(btn => {
-            btn.children[2].addEventListener("click", addFunc);
+            btn.children[5].addEventListener("click", addFunc);
         })
         favBtns.forEach(btn => {
             btn.addEventListener("click", favFunc);
@@ -402,38 +382,52 @@ window.onload = () => {
         offerLists.forEach(list => {
             list.innerHTML = "";
         })
-    })
-    })
-    }
-const darkMode = document.getElementById("dark-btn");
-const smallDarkMode = document.getElementById("dark-small-btn");
-const dark = Array.from(document.getElementsByClassName("dark"));
-const darkFunc = event => {
-    if(event.target.textContent === "Enable Darkmode") {
-    event.target.textContent = "Disable Darkmode"
-    dark.forEach(dar => {
-        if(dar.classList.contains("d-1")) {
-            dar.classList.add("dark-1");
-        } else if(dar.classList.contains("d-2")) {
-            dar.classList.add("dark-2");
-        } else {
-            dar.classList.add("dark-3")
-        }
     });
-    } else {
-        event.target.textContent = "Enable Darkmode";
-    dark.forEach(dar => {
-        if(dar.classList.contains("d-1")) {
-            dar.classList.remove("dark-1");
-        } else if(dar.classList.contains("d-2")) {
-            dar.classList.remove("dark-2");
-        } else {
-            dar.classList.remove("dark-3")
-        }
+    const filterStat = document.getElementById("filter");
+    const filterFunc = () => {
+        addBtns.forEach(btn => {
+            btn.parentElement.style.display = "none";
+            if(filterStat.value == "All Hit Effects") {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Mythics" && btn.dataset.rare == "mythical") {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Legendary+" && (btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Epics+" && (btn.dataset.rare == "epic" || btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
+                btn.parentElement.style.display = "flex";
+            }
+        })
+    }
+    filterStat.addEventListener("change", filterFunc);
     })
-    };
-    localStorage.setItem("darkMarker", event.target.textContent);
+const question = Array.from(document.getElementsByClassName("question"));
+const answer = Array.from(document.getElementsByClassName("answer"));
+const icon = Array.from(document.getElementsByClassName("faq-icon"));
+const faqExpand = num => {
+    if(question[num].classList.contains("closed")) {
+    question[num].style.borderBottomLeftRadius = "0";
+    question[num].style.borderBottomRightRadius = "0";
+    question[num].style.borderBottom = "none";
+    icon[num].style.transform = "rotate(-180deg)";
+    answer[num].style.height = "150px";
+    answer[num].style.position = "relative";
+    answer[num].style.opacity = "1";
+    answer[num].style.top = "0";
+    } else {
+    question[num].style.borderBottomLeftRadius = "10px";
+    question[num].style.borderBottomRightRadius = "10px";
+    question[num].style.borderBottom = "border: 1px solid rgb(53, 53, 53)";
+    icon[num].style.transform = "rotate(0deg)";
+    answer[num].style.height = "0";
+    setTimeout(() => {
+    answer[num].style.position = "absolute";
+    answer[num].style.top = "-200px";
+    answer[num].style.opacity = "0";
+    }, 50);
+    }
+    question[num].classList.toggle("closed");
 }
-darkMode.addEventListener("click", darkFunc);
-smallDarkMode.addEventListener("click", darkFunc);
-
+question[0].addEventListener("click", () => faqExpand(0));
+question[1].addEventListener("click", () => faqExpand(1));
+question[2].addEventListener("click", () => faqExpand(2));
+question[3].addEventListener("click", () => faqExpand(3));
