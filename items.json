@@ -113,7 +113,7 @@
 },
 {
     "name": "Lightning",
-    "val": 215.6,
+    "val": 195,
     "crate": "standard",
     "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204544.png?updatedAt=1747837106554",
 "rarity": "legendary"
@@ -232,14 +232,14 @@
 },
 {
   "name": "Slashes",
-  "val": 255.8,
+  "val": 260,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001911.png?updatedAt=1747837170833",
 "rarity": "legendary"
 },
 {
   "name": "Glass",
-  "val": 261.8,
+  "val": 260.5,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001919.png?updatedAt=1747837170633",
 "rarity": "legendary"
@@ -344,7 +344,7 @@
 },
 {
   "name": "Cursed",
-  "val": 30.8,
+  "val": 32.5,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064643.png?updatedAt=1747837225333",
 "rarity": "epic"
@@ -372,7 +372,7 @@
 },
 {
   "name": "Darkness",
-  "val": 354.2,
+  "val": 357.5,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064659.png?updatedAt=1747837226421",
 "rarity": "legendary"
@@ -421,21 +421,21 @@
 },
 {
   "name": "ToxicPuddle",
-  "val": 286.6,
+  "val": 292.5,
   "crate": "overkill",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064846.png?updatedAt=1747837299095",
 "rarity": "legendary"
 },
 {
   "name": "PurpleRapture",
-  "val": 417.4,
+  "val": 422.5,
   "crate": "overkill",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064857.png?updatedAt=1747837299113",
 "rarity": "legendary"
 },
 {
   "name": "PopstarSpectacle",
-  "val": 386.6,
+  "val": 390,
   "crate": "overkill",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064905.png?updatedAt=1747837299241",
 "rarity": "legendary"
@@ -568,21 +568,21 @@
 },
 {
 "name": "PablosCrownery",
-"val": 479.4,
+"val": 455,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140536.png?updatedAt=1751663199691",
 "rarity": "legendary"
 },
 {
 "name": "CRUNCHYExplosion",
-"val": 494.8,
+"val": 487.5,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140546.png?updatedAt=1751663199593",
 "rarity": "legendary"
 },
 {
 "name": "BarzilianNexus",
-"val": 7000,
+"val": 6500,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140554.png?updatedAt=1751663199670",
 "rarity": "mythical"
@@ -679,7 +679,7 @@
 "rarity": "epic"
 },
 {
-"name": "Zeuss Might",
+"name": "ZeussMight",
 "val": 51,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075537.png?updatedAt=1755270200915",
@@ -701,7 +701,7 @@
 },
 {
 "name": "IntergalacticClouds",
-"val": 747.5,
+"val": 812.5,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075613.png?updatedAt=1755270201075",
 "rarity": "legendary"
@@ -806,14 +806,14 @@
 },
 {
 "name": "DemonicHex",
-"val": 1137,
+"val": 1137.5,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194859.png?updatedAt=1748404334202",
 "rarity": "legendary"
 },
 {
 "name": "Pandecrownium",
-"val": 16250,
+"val": 14300,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
 "rarity": "mythical"
@@ -897,7 +897,7 @@
 },
 {
 "name": "ApproachingStorm",
-"val": 812.5,
+"val": 975,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070102.png?updatedAt=1747837361447",
 "rarity": "legendary"
@@ -1009,7 +1009,7 @@
 },
 {
 "name": "Groggy",
-"val": 432.8,
+"val":  422.5,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065838.png?updatedAt=1747837400912",
 "rarity": "legendary"
@@ -1072,7 +1072,7 @@
 },
 {
   "name": "Glitter",
-  "val": 447.8,
+  "val": 487.5,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065109.png?updatedAt=1747837429142",
 "rarity": "legendary"
@@ -1169,7 +1169,7 @@
 },
 {
   "name": "Peppermint",
-  "val": 619.2,
+  "val": 650,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065319.png?updatedAt=1747837473067",
 "rarity": "legendary"
@@ -1183,7 +1183,7 @@
 },
 {
   "name": "Sacred",
-  "val": 650,
+  "val": 715,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065334.png?updatedAt=1747837473201",
 "rarity": "legendary"
@@ -1358,7 +1358,7 @@
 },
 {
   "name": "Hitman",
-  "val": 5800,
+  "val": 5525,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
 "rarity": "legendary"
