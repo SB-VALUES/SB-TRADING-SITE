@@ -4,6 +4,10 @@ This code is not open source. Do not copy or reuse without permission.
 -->
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+<title>Slap Battles Trade Calculator - SB Values & Roblox Item Checker</title>
+<link rel="icon" href="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-30%20063206.png?updatedAt=1753918809972">
+<link rel="stylesheet" href="styles.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZXMYB3FRX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -13,82 +17,203 @@ This code is not open source. Do not copy or reuse without permission.
   gtag('config', 'G-ZZXMYB3FRX');
 </script>
 <!--GOOGLE TAG ABOVE-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="icon" href="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-30%20063206.png?updatedAt=1753918809972">
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="slap battles trade calculator, sb-values for slap battles trade calculator, Slap Battles, trade checker, SB values, Roblox trading, item values, Slap Battles trading">
-    <meta property="og:image" content="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-28%20180113.png?updatedAt=1748480657428">
-    <meta name="description" content="Use this slap battles trade calculator to compare slap values and trades in Roblox. Try SB-VALUES for accurate, easy value comparisons.">
-    <title>Slap Battles Trade Calculator - SB Values & Roblox Item Checker</title>
 </head>
-<body id="body" class="dark d-2">
-    <div class="fixed">
-    <div class="head dark d-3">
-        <div class="bar1"></div>
-        <h1 id="heading-h1" style="color: rgb(102, 22, 137)">SB-<span>VALUES</span></h1>
-        <div class="bar2"></div>
-    </div>
-    <nav class="navigation dark d-2">
-        <a target="_blank" href="credits.html#contact-info">Contact Information</a>
-        <a target="_blank" href="credits.html#value-list">Full Value List</a>
-        <a target="_blank" href="credits.html#help">Help/How to use</a>
-        <a target="_blank" href="credits.html#discord-server">Discord Information</a>
-        <a target="_blank" href="https://discord.gg/8KPN7dqXxt">Join the discord!</a>
-        <a id="dark-btn" class="darkBtn">Enable Darkmode</a>
-    </nav>
-    </div>
-    <div class="tint">
-        <div class="info-container">
-        <h1 class="head-h1">Slap Battles Trade Calculator - Free Trade Checker</h1>
-        <a style="color: white" href="#scroll-location"><button class="check-scroll-btn">Check Trade</button></a>
-        </div>
-    </div>
-    <div class="small-head dark d-3">
-        <div class="menu"><i class="fa fa-bars"></i> Menu<div class="menu-buttons">
-        <a target="_blank" href="credits.html#contact-info">Contact Information</a>
-        <a target="_blank" href="credits.html#value-list">Full Value List</a>
-        <a target="_blank" href="credits.html#help">Help/How to use</a>
-        <a target="_blank" href="credits.html#discord-server">Discord Information</a>
-        <a target="_blank" href="https://discord.gg/8KPN7dqXxt">Join the discord!</a>
-        <a id="dark-small-btn" class="darkBtn">Enable Darkmode</a>
+<body>
+    <nav class="nav-bar">
+        <div class="menu"><i class="fa fa-list"></i> Menu<div class="menu-buttons">
+        <a target="_blank" href="credits.html">Contact Information</a>
+        <a target="_blank" href="credits.html">Full Value List</a>
+        <a target="_blank" href="credits.html">Help/How to use</a>
+        <a href="#dc-scroll">Community/Discord</a>
+        <a href="#scroll-head">Trade Calculator</a>
+        <a target="_blank" href="credits.html">Giveaways</a>
         </div></div>
-        <h4 class="small-head-text"><span style="color: rgb(102, 22, 137)">\ SB-</span>VALUES /</h4>
-    </div>
-    <img src="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20195726.png?updatedAt=1747882684703" class="head-img">
-    <div class="extra-info-container dark d-1">
-        <div class="discord-info">
-            <h2>JOIN THE SBV DISCORD COMMUNITY!</h2>
-            <h4><i>Giveaways!</i></h4>
-            <hr class="discord-line">
-            <p class="discord-text">We host giveaways where you can win all the way from epic hit effects to mythicals!</p>
-            <br>
-            <h4><i>Updates!</i></h4>
-            <hr class="discord-line">
-            <p class="discord-text">Be the first to experience new updates, where you can get pinged when a new slap battles update comes out, and when the website it updated!</p>
-            <br>
-            <h4><i>Trade!</i></h4>
-            <hr class="discord-line">
-            <p class="discord-text">Trade with other players on a trading channel to get the hit effects you want!</p>
-            <br>
-            <p class="discord-text">(to join click the discord icon below)</p>
+        <h3>SB VALUES <i class="fa fa-coins"></i> </h3>
+        <a target="_blank" href="credits.html"><div class="nav-bar-btn">
+            <i class="fa fa-clipboard"></i>
+            <p class="nav-bar-btn-text">Value List</p>
+        </div></a>
+        <a target="_blank" href="credits.html"><div class="nav-bar-btn">
+            <i class="fa fa-gift"></i>
+            <p class="nav-bar-btn-text">Giveaways</p>
+        </div></a>
+        <a href="#scroll-head"><div class="nav-bar-btn">
+            <i class="fa fa-calculator"></i>
+            <p class="nav-bar-btn-text">Calculator</p>
+        </div></a>
+        <a href="#dc-scroll"><div class="nav-bar-btn">
+            <i class="fa fa-users"></i>
+            <p class="nav-bar-btn-text">Community</p>
+        </div></a>
+        <a target="_blank" href="credits.html"><div class="nav-bar-btn">
+            <i class="fa fa-info"></i>
+            <p class="nav-bar-btn-text">Contact Info</p>
+        </div></a>
+        <a target="_blank" href="credits.html"><div class="nav-bar-btn">
+            <i class="fa fa-question"></i>
+            <p class="nav-bar-btn-text">Help</p>
+        </div></a>
+    </nav>
+    <div class="head-text-container">
+        <div class="head-text">
+        <div>
+        <h1><span class="green-text">Slap</span><span class="red-text"> Battles</span> Values <br><h3 class="small"><span class="yellow-text">SB</span><span class="purple-text">V</span></h3></h1>
+        <p>The original slap battles trade calculator meant for reliable and quick calculations. Get your trades done quick with
+            as much accuracy and value as possible. 
+        </p>
+        <div class="head-btns">
+        <a href="#scroll-head"><button class="start-calc-btn">Start Calculating Trades <i class="fa fa-arrow-right"></i></button></a>
+        <a target="_blank" href="credits.html"><button class="start-calc-btn value-list-btn">Value List <i class="fa fa-gem"></i></button></a>
+        </div>
+        </div>
+        <img src="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-30%20220623.png?updatedAt=1756616812247">
+        </div>
+        <div>
         </div>
     </div>
-    <div class="icon-container dark d-2">
-<a target="_blank" style="color: black" href="https://www.youtube.com/channel/UC-NFTaUkWsw_t4e8ipAYPDQ"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a>
-<a target="_blank" style="color: black" href="https://discord.gg/8KPN7dqXxt"><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="50" height="50" viewBox="0 0 32 32" version="1.1">
+    <div class="abt-us" id="abt">
+        <h2>About the SBV <i class="fa fa-info-circle"></i></h2>
+        <p class="mini-head">Basic Website Facts & Info</p>
+        <p>The sbv was created in order to avoid scams and
+            make sure new players can trade successfully and be set to be able
+            to understand hit effect values, demand and rarities. This site is mainly
+            used as a value list for the game called "Slap Battles", on roblox. We show values which are
+            usually decided by the community but mostly on their rairty, if an item is limited
+            and it's rarity. This site is an original, which comes with a discord server
+            with hundreds of members creating a friendly community. The discord server includes a
+            "WFL" channel where you can notify trade helpers if you need help with a trade so that you can be extra sure!
+            </p>
+        <h2>Why trust us? <i class="fa fa-shield-halved"></i></h2>
+        <p class="mini-head">Website Trust & Facts</p>
+        <p>The sbv is trusted by many, being supported by multiple high traders who help create and suggest value changes so that values
+            display accurately and give you the proper information in order to make percise decisions. It has roughly 10k+ views and has hit around 1k total users. If you are ever unsure about a trade
+            simply join the SBV discord server and use the wfl channel!
+        </p>
+        <h2>Contact Information <i class="fa fa-envelope"></i></h2>
+        <p class="mini-head">Owner contact information & credits</p>
+        <p>
+            SBV Email - sb-values@outlook.com
+            <br>
+            Website Owner - @catlover591723 (discord)
+            <br>
+            Discord Server Owner - @catlover591723
+            <br>
+            Website Maintainer - @snowcliff (discord)
+        </p>
+    </div>
+        <div class="dc-info" id="dc-scroll">
+            <img src="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-30%20063206.png?updatedAt=1753918809972">
+            <div>
+            <h2>Join The Discord!</h2>
+            <ul>
+                <li>Active Community <i class="fa fa-users"></i></li>
+                <li>Trading <i class="fa fa-exchange-alt"></i></li>
+                <li>Giveaways <i class="fa fa-gift"></i></li>
+            </ul>
+            <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="btn">Join Today!</button></a>
+            </div>
+<a target="_blank" href="https://discord.gg/8KPN7dqXxt"><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="70" height="70" viewBox="0 0 32 32" version="1.1">
 <path d="M20.992 20.163c-1.511-0.099-2.699-1.349-2.699-2.877 0-0.051 0.001-0.102 0.004-0.153l-0 0.007c-0.003-0.048-0.005-0.104-0.005-0.161 0-1.525 1.19-2.771 2.692-2.862l0.008-0c1.509 0.082 2.701 1.325 2.701 2.847 0 0.062-0.002 0.123-0.006 0.184l0-0.008c0.003 0.050 0.005 0.109 0.005 0.168 0 1.523-1.191 2.768-2.693 2.854l-0.008 0zM11.026 20.163c-1.511-0.099-2.699-1.349-2.699-2.877 0-0.051 0.001-0.102 0.004-0.153l-0 0.007c-0.003-0.048-0.005-0.104-0.005-0.161 0-1.525 1.19-2.771 2.692-2.862l0.008-0c1.509 0.082 2.701 1.325 2.701 2.847 0 0.062-0.002 0.123-0.006 0.184l0-0.008c0.003 0.048 0.005 0.104 0.005 0.161 0 1.525-1.19 2.771-2.692 2.862l-0.008 0zM26.393 6.465c-1.763-0.832-3.811-1.49-5.955-1.871l-0.149-0.022c-0.005-0.001-0.011-0.002-0.017-0.002-0.035 0-0.065 0.019-0.081 0.047l-0 0c-0.234 0.411-0.488 0.924-0.717 1.45l-0.043 0.111c-1.030-0.165-2.218-0.259-3.428-0.259s-2.398 0.094-3.557 0.275l0.129-0.017c-0.27-0.63-0.528-1.142-0.813-1.638l0.041 0.077c-0.017-0.029-0.048-0.047-0.083-0.047-0.005 0-0.011 0-0.016 0.001l0.001-0c-2.293 0.403-4.342 1.060-6.256 1.957l0.151-0.064c-0.017 0.007-0.031 0.019-0.040 0.034l-0 0c-2.854 4.041-4.562 9.069-4.562 14.496 0 0.907 0.048 1.802 0.141 2.684l-0.009-0.11c0.003 0.029 0.018 0.053 0.039 0.070l0 0c2.14 1.601 4.628 2.891 7.313 3.738l0.176 0.048c0.008 0.003 0.018 0.004 0.028 0.004 0.032 0 0.060-0.015 0.077-0.038l0-0c0.535-0.72 1.044-1.536 1.485-2.392l0.047-0.1c0.006-0.012 0.010-0.027 0.010-0.043 0-0.041-0.026-0.075-0.062-0.089l-0.001-0c-0.912-0.352-1.683-0.727-2.417-1.157l0.077 0.042c-0.029-0.017-0.048-0.048-0.048-0.083 0-0.031 0.015-0.059 0.038-0.076l0-0c0.157-0.118 0.315-0.24 0.465-0.364 0.016-0.013 0.037-0.021 0.059-0.021 0.014 0 0.027 0.003 0.038 0.008l-0.001-0c2.208 1.061 4.8 1.681 7.536 1.681s5.329-0.62 7.643-1.727l-0.107 0.046c0.012-0.006 0.025-0.009 0.040-0.009 0.022 0 0.043 0.008 0.059 0.021l-0-0c0.15 0.124 0.307 0.248 0.466 0.365 0.023 0.018 0.038 0.046 0.038 0.077 0 0.035-0.019 0.065-0.046 0.082l-0 0c-0.661 0.395-1.432 0.769-2.235 1.078l-0.105 0.036c-0.036 0.014-0.062 0.049-0.062 0.089 0 0.016 0.004 0.031 0.011 0.044l-0-0.001c0.501 0.96 1.009 1.775 1.571 2.548l-0.040-0.057c0.017 0.024 0.046 0.040 0.077 0.040 0.010 0 0.020-0.002 0.029-0.004l-0.001 0c2.865-0.892 5.358-2.182 7.566-3.832l-0.065 0.047c0.022-0.016 0.036-0.041 0.039-0.069l0-0c0.087-0.784 0.136-1.694 0.136-2.615 0-5.415-1.712-10.43-4.623-14.534l0.052 0.078c-0.008-0.016-0.022-0.029-0.038-0.036l-0-0z"/>
 </svg></a>
+        </div>
+        <div class="small">
+        <h1 class="features-head-text">SBV Info |<i class="fa fa-info"></i></h1>
+        <p class="faq-mini-head">Website & Discord Features</p>
+        <div class="features-center">
+        <div class="features-container">
+            <div class="feature">
+                <div>
+                <h3>Trade Calculator</h3>
+                <div class="feature-break"></div>
+                <p>Trustworthy trade calculator in order to calculate values with ease and percision in order to avoid scams and get good trades.</p>
+                </div>
+                <div class="push-to-bottom">
+                <div class="icon-container">
+                <i class="fa fa-calculator feature-icon"></i>
+                </div>
+                <a href="#scroll-head"><button class="btn feature-btn">Calculate Trade! <i class="fa fa-arrow-right"></i></button></a>
+                </div>
+            </div>
+            <div class="feature">
+                <h3>Full Value List</h3>
+                <div class="feature-break"></div>
+                <p>Value list containing each and every hit effect value. Inlcuding rarity, crate, and hit effect names. Comes with a search bar in order to 
+                    search through the list with ease.
+                </p>
+                <div class="icon-container">
+                <i class="fa fa-clipboard feature-icon"></i>
+                </div>
+                <a target="_blank" href="credits.html"><button class="btn feature-btn">View value list! <i class="fa fa-arrow-right"></i></button></a>
+            </div>
+            <div class="feature">
+                <h3>Discord | WFL</h3>
+                <div class="feature-break"></div>
+                <p>Use via discord server! The WFL (win/fair/lose) channel is for you to post any trade offers that you are unsure to take a trade a trade helper can help you when you use the wfl ping!
+                </p>
+                <div class="icon-container">
+                <i class="fa fa-w feature-icon"></i>
+                </div>
+                <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="btn feature-btn">Join the discord! <i class="fa fa-arrow-right"></i></button></a>
+            </div>
+            <div class="feature">
+                <h3>Giveaways</h3>
+                <div class="feature-break"></div>
+                <p>Participate via discord server! Join giveways that range from epic to mythic. Giveaways weekly! You can participate, host, or manage giveaways!
+                </p>
+                <div class="icon-container">
+                <i class="fa fa-gift feature-icon"></i>
+                </div>
+                <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="btn feature-btn">Join the discord! <i class="fa fa-arrow-right"></i></button></a>
+            </div>
+            <div class="feature">
+                <h3>Glove Grinding</h3>
+                <div class="feature-break"></div>
+                <p>Use via discord server! Alongside other players get gloves together! Especially useful for gloves like leash and boogie which require multiple players to cooperate.
+                </p>
+                <div class="icon-container">
+                <i class="fa fa-mitten feature-icon"></i>
+                </div>
+                <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="btn feature-btn">Join the discord! <i class="fa fa-arrow-right"></i></button></a>
+            </div>
+            <div class="feature">
+                <h3>Original</h3>
+                <div class="feature-break"></div>
+                <p>The SBV is an original site for slap battles! It's the first trade calculator to emerge and contains the most accurate value list at the moment!
+                </p>
+                <div class="icon-container">
+                <i class="fa-solid fa-lightbulb feature-icon"></i>
+                </div>
+                <a href="#abt"><button class="btn feature-btn">About the SBV <i class="fa fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+        </div>
+        <div class="breaker"></div>
+        </div>
+        <div class="smaller">
+        <h1 class="features-head-text">FAQ |<i class="fa fa-question"></i></h1>
+        <p class="faq-mini-head">Frequently Asked Questions</p>
+        <div class="faq">
+            <button class="question closed">How do I use the trade calculator?<i class="fa fa-chevron-down faq-icon"></i></button>
+            <div class="answer">To use the SBV trade calculator simply click "Add" on the left side in order to add that item to your trade, and click "Add" on the right side to add the item onto their side. After adding the items to both sides the trade calculator will display if your trade is Win/Fair/Lose. A win meaning it is a good trade, fair meaning it is fair, while lose means you are losing value.</div>
+            <button class="question closed">How do I join a giveaway?<i class="fa fa-chevron-down faq-icon"></i></button>
+            <div class="answer">To join a giveaway you must first join the sbv discord server! From there visit the #giveaways channel where you can participate in weekly giveaways!</div>
+            <button class="question closed">How often are values updated?<i class="fa fa-chevron-down faq-icon"></i></button>
+            <div class="answer">Every Friday and sometimes earlier values are updated usually being changed based off poll answers! We show each hit effect value change and exactly what changed, if it went up, or down. This message is in the sbv discord in #website-updates! These messages also contain any addition website information such as any changes to design that were made!</div>
+            <button class="question closed">How do I suggest a value change?<i class="fa fa-chevron-down faq-icon"></i></button>
+            <div class="answer">To suggest a value change simply join the sbv discord and find your way to the #website-suggestions channel! There you can create a post and suggest what hit effect value should be changed and why. If we're unsure to accept your acception we usually decide via poll in the #polls channel!(You may also suggest changes via email - sb-values@outlook.com)</div>
+        </div>
+    <div class="breaker"></div>
     </div>
-    <div class="trader-title dark d-2"><h3>Trade Checker</h3></div>
-    <div id="scroll-location" class="btns-container">
-    <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="dc-btn">Join The Discord!</button>
-    <a target="_blank" href="credits.html#value-list"><button class="value-list-btn">Full Value List</button></a>
-    </div>
+        <h1 class="features-head-text" id="scroll-head">Trade Calculator |<i class="fa fa-calculator"></i></h1>
+        <p class="faq-mini-head">Trade calculator with Precise Values</p>
     <div class="item-selection-search">
     <input id="search" placeholder="Search Items" autocomplete="off" autocorrect="off">  
+    <select id="filter">
+        <option selected>All Hit Effects</option>
+        <option>Only Epics+</option>
+        <option>Only Legendary+</option>
+        <option>Only Mythics</option>
+    </select>
     </div>
     <div class="item-selection-container">
     <div class="item-selection">
@@ -98,6 +223,7 @@ This code is not open source. Do not copy or reuse without permission.
 
     </div>
     </div>
+    <div class="values-container">
     <div class="values">
         <div>
             <h2>Your Total Value: <span id="your-val">0</span></h2>
@@ -114,23 +240,29 @@ This code is not open source. Do not copy or reuse without permission.
 
             </ul>
         </div>
+        </div>
     </div>
-    <footer class="foot dark d-3">
-        <h4><span>\ SB</span>-VALUES /</h4>
-        <div style="text-align: center;">
-        <a href="https://sb-values.github.io/SB-TRADING-SITE/">SB Values</a> © 2025 is licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    <h1 style="text-align: center;"><span class="yellow-text">SB</span> <span class="purple-text">VALUES</span></h1>
+    <div class="footer">
+        <div class="footer-shrink">
+        <div class="footer-buttons footer-top">
+        <p>© 2025 SB Values. All rights reserved.</p>
+        <a href="https://sb-values.github.io/SB-TRADING-SITE/"><img src="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-30%20063206.png?updatedAt=1753918809972"></a>
         </div>
-        <div class="links">
-            <a href="https://sb-values.github.io/SB-TRADING-SITE/"><img src="https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-30%20063206.png?updatedAt=1753918809972"></a>
-            <div class="link-div">
-        <a target="_blank" href="credits.html#contact-info">Contact Information</a>
-        <a target="_blank" href="credits.html#value-list">Full Value List</a>
-        <a target="_blank" href="credits.html#help">Help/How to use</a>
-        <a target="_blank" href="credits.html#discord-server">Discord Information</a>
-        <a target="_blank" href="https://discord.gg/8KPN7dqXxt">Join the discord!</a>
-            </div>
+        <div class="footer-buttons">
+            <b>Quick Links</b>
+            <a target="_blank" href="credits.html">Value List</a>
+            <a href="#scroll-head">Trade Calculator</a>
+            <a target="_blank" href="https://discord.gg/8KPN7dqXxt">Join the discord!</a>
+            <a target="_blank" href="credits.html">Contact Info</a>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        <div class="footer-buttons">
+            <b>Socials</b>
+            <a target="_blank" href="https://discord.gg/8KPN7dqXxt">Discord</a>
+            <a target="_blank" href="https://www.youtube.com/@TheAwesomeOne0000">Youtube</a>
+        </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
 </body>
 </html>
