@@ -173,6 +173,25 @@ let favArr = [];
     .then(() => {
         const favBtns = Array.from(document.getElementsByClassName("fav-btn"));
         const addBtns = Array.from(document.getElementsByClassName("add"));
+    const filterStat = document.getElementById("filter");
+    const filterFunc = () => {
+        addBtns.forEach(btn => {
+            btn.classList.remove("filtered");
+            btn.parentElement.style.display = "none";
+            if(filterStat.value == "All Hit Effects") {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Mythics" && btn.dataset.rare == "mythical") {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Legendary+" && (btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
+                btn.parentElement.style.display = "flex";
+            } else if(filterStat.value == "Only Epics+" && (btn.dataset.rare == "epic" || btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
+                btn.parentElement.style.display = "flex";
+            } else {
+                btn.classList.add("filtered");
+            }
+        })
+    }
+    filterStat.addEventListener("change", filterFunc);
         const checkWfl = () => {
             if(yVal === tVal) {
                 wfl.textContent = "FAIR";
@@ -357,11 +376,15 @@ let favArr = [];
     const searchFunc = () => {
     addBtns.forEach(button => {
     let regex = new RegExp(search.value.replace(/\s/g, ""), "i");
-    if(regex.test(button.dataset.type.replace(/\s/g, ""))) {
-        button.parentElement.style.display = "flex";
-    } else {
-        button.parentElement.style.display = "none";
-    }
+        if(!regex.test(button.dataset.type.replace(/\s/g, ""))) {
+            button.parentElement.style.display = "none";
+            return;
+        }
+        if(button.classList.contains("filtered")) {
+            button.parentElement.style.display = "none"
+        } else {
+            button.parentElement.style.display = "flex";
+        }
     }) 
     }
     search.addEventListener("input", searchFunc);
@@ -383,22 +406,6 @@ let favArr = [];
             list.innerHTML = "";
         })
     });
-    const filterStat = document.getElementById("filter");
-    const filterFunc = () => {
-        addBtns.forEach(btn => {
-            btn.parentElement.style.display = "none";
-            if(filterStat.value == "All Hit Effects") {
-                btn.parentElement.style.display = "flex";
-            } else if(filterStat.value == "Only Mythics" && btn.dataset.rare == "mythical") {
-                btn.parentElement.style.display = "flex";
-            } else if(filterStat.value == "Only Legendary+" && (btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
-                btn.parentElement.style.display = "flex";
-            } else if(filterStat.value == "Only Epics+" && (btn.dataset.rare == "epic" || btn.dataset.rare == "legendary" || btn.dataset.rare == "mythical")) {
-                btn.parentElement.style.display = "flex";
-            }
-        })
-    }
-    filterStat.addEventListener("change", filterFunc);
     })
 const question = Array.from(document.getElementsByClassName("question"));
 const answer = Array.from(document.getElementsByClassName("answer"));
