@@ -70,14 +70,14 @@
     "rarity": "uncommon"
 },
 {
-    "name": "Pixelated Lightning",
+    "name": "PixelatedLightning",
     "val": 0.285,
     "crate": "standard",
     "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204502.png?updatedAt=1747837105141",
 "rarity": "rare"
 },
 {
-    "name": "Plasma Blast",
+    "name": "PlasmaBlast",
     "val": 0.28,
     "crate": "standard",
     "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-20%20204510.png?updatedAt=1747837106076",
@@ -708,7 +708,7 @@
 },
 {
 "name": "Dodecanado",
-"val": 10725,
+"val": 11700,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
 "rarity": "mythical"
@@ -799,7 +799,7 @@
 },
 {
 "name": "VirulentCongregation",
-"val": 417.4,
+"val": 455,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194835.png?updatedAt=1748404334082",
 "rarity": "legendary"
@@ -813,7 +813,7 @@
 },
 {
 "name": "Pandecrownium",
-"val": 14300,
+"val": 15600,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
 "rarity": "mythical"
@@ -1081,7 +1081,8 @@
   "name": "Haloheart",
   "val": 2925,
   "crate": "valentines",
-  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285"
+  "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
+  "rarity": "mythical"
 },
 {
   "name": "Starrynight",
