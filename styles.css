@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(
-        rgb(16, 16, 16),
-        rgb(40, 40, 40)
+        40deg,
+        rgb(0, 0, 0),
+        rgb(43, 38, 48)
     );
     color: white;
     font-family:sans-serif;
@@ -9,6 +10,19 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    animation: bg-change 2s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes bg-change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .nav-bar {
     background-color: transparent;
@@ -199,6 +213,7 @@ body {
 .abt-us h2 {
     font-size: 35px;
     text-shadow: 0 0 1.5px white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .abt-us p {
     width: 80%;
@@ -358,7 +373,10 @@ svg:hover {
     flex-wrap: wrap;
     height: 500px;
     overflow-y: scroll;
-    border-radius: 4px;
+    border: 1.5px solid; 
+    border-image: linear-gradient(90deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    scrollbar-width: thin;
+    scrollbar-color: #535353 transparent;
 }
 
 .red-bg {
@@ -367,13 +385,13 @@ svg:hover {
         rgb(44, 35, 35),
         rgb(20, 5, 5)
     );
+    border-image: linear-gradient(90deg, rgb(118, 118, 13), rgb(164, 17, 204)) 1;
 }
 .values {
     width: 90%;
     margin: auto;
     padding: 0 2% 20px 2%;
     height: fit-content;
-    border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 150px;
     display: flex;
@@ -383,7 +401,8 @@ svg:hover {
         rgb(16, 16, 53),
         rgb(35, 7, 7)
     );
-    border-radius: 4px;
+    border: 1px solid; 
+    border-image: linear-gradient(360deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
 }
 
 .offer-list {
@@ -413,10 +432,6 @@ button {
     border: 1px solid black;
     transition: transform 0.1s linear;
 }
-
-#clear-btn {
-    margin-right: 10px;
-}
 .image-btn {
     background: repeating-linear-gradient(45deg, rgb(113, 23, 224) 10% 20%, rgb(125, 8, 251) 20% 27%);
     width: 120px;
@@ -440,6 +455,10 @@ button {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    box-shadow: 3px 3px 4px black;
+}
+.hit-effect p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .hit-effect:hover {
     transform: translateY(2px);
@@ -462,6 +481,8 @@ button {
 .hit-effect img {
     width: 125px;
     height: 125px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px -1px black;
 }
 .crate-line {
     width: 100%;
@@ -498,6 +519,7 @@ button {
     cursor: pointer;
     border-radius: 3px;
     padding: 2px;
+    box-shadow: 3px 3px 2px -2px black;
 }
 .fav-btn {
     background: linear-gradient(
@@ -509,6 +531,7 @@ button {
     cursor: pointer;
     border-radius: 3px;
     padding: 2px;
+    box-shadow: 3px 3px 2px -2px black;
 }
 .footer, .footer-shrink {
     width: 100%;
@@ -843,4 +866,44 @@ a {
 }
 html {
     scroll-behavior: smooth;
+}
+.glow-orb {
+    position: absolute;
+    z-index: -2;
+}
+#wfl {
+    background-color: rgba(119, 137, 15, 0.337);
+    border: 1px solid rgb(255, 225, 0);
+    border-radius: 4px;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+}
+.item-selection .offer-head-text {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.values h3 {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid white; 
+}
+.values i {
+    background-color: rgba(255, 255, 0, 0.279);
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 5px;
+}
+.val-li {
+    transform: translateX(-50px);
+    transition: transform 0.1s linear, opacity 0.1s linear;
+    opacity: 0;
+    margin-top: 5px;
+}
+.val-li a {
+    color: purple;
+    margin-left: 5px;
 }
