@@ -196,24 +196,38 @@ let favArr = [];
             if(yVal === tVal) {
                 wfl.textContent = "FAIR";
                 wfl.style.color = "gold";
+                wfl.style.backgroundColor = "rgba(119, 137, 15, 0.337)";
+                wfl.style.border = "1px solid rgb(255, 225, 0)";
             } else if(yVal/1000 < (tVal/1000)-1000) {
                 wfl.textContent = "LARGE WIN";
                 wfl.style.color = "lime";
+                wfl.style.backgroundColor = "rgba(15, 137, 27, 0.52)";
+                wfl.style.border = "1px solid rgba(0, 255, 85, 1)";
             } else if(yVal < tVal && yVal >= tVal*0.88) {
                 wfl.textContent = "SMALL WIN";
                 wfl.style.color = "green";
+                wfl.style.backgroundColor = "rgba(15, 137, 27, 0.18)";
+                wfl.style.border = "1px solid rgba(0, 255, 85, 1)";
             } else if(yVal < tVal) {
                 wfl.textContent = "WIN";
                 wfl.style.color = "green";
+                wfl.style.backgroundColor = "rgba(15, 137, 27, 0.34)";
+                wfl.style.border = "1px solid rgba(0, 255, 85, 1)";
             } else if((yVal/1000)-1000 > tVal/1000) {
                 wfl.textContent = "LARGE LOSE";
                 wfl.style.color = "red";
+                wfl.style.backgroundColor = "rgba(137, 15, 15, 0.34)";
+                wfl.style.border = "1px solid rgba(255, 0, 0, 1)";
             } else if(yVal > tVal && yVal < tVal+tVal*0.12) {
                 wfl.textContent = "SMALL LOSE";
                 wfl.style.color = "red";
+                wfl.style.backgroundColor = "rgba(137, 15, 15, 0.34)";
+                wfl.style.border = "1px solid rgba(255, 0, 0, 1)";
             } else if(yVal > tVal){
                 wfl.textContent = "LOSE";
                 wfl.style.color = "red";
+                wfl.style.backgroundColor = "rgba(137, 15, 15, 0.34)";
+                wfl.style.border = "1px solid rgba(255, 0, 0, 1)";
             }
         };
         const addFunc = event => {
@@ -224,9 +238,30 @@ let favArr = [];
                     offerLists[1].querySelector(`.${event.target.dataset.type}val`).textContent = `(${(Number(objO[event.target.dataset.type])*(Number(event.target.dataset.num)*1000))/1000})`;
                 } else {
                     objO[event.target.dataset.type] = 1;
-                    offerLists[1].innerHTML += `
-                    <li data-type="${event.target.dataset.type}" data-num="${event.target.dataset.num}"><span class="${event.target.dataset.type}"></span> ${event.target.dataset.type} - ${event.target.dataset.num} <span class="${event.target.dataset.type}val"></span><br><button class="remove-btn">Remove</button></li>
-                    `
+                let li = document.createElement("li");
+                li.classList.add("val-li");
+                li.dataset.type = event.target.dataset.type;
+                li.dataset.num = event.target.dataset.num;
+                let span = document.createElement("span");
+                span.classList.add(event.target.dataset.type);
+                li.appendChild(span);
+                li.appendChild(document.createTextNode(` ${event.target.dataset.type} - ${event.target.dataset.num}`));
+                let span2 = document.createElement("span");
+                span2.classList.add(`${event.target.dataset.type}val`)
+                li.appendChild(span2);
+                let img = document.createElement("a");
+                img.setAttribute("target", "_blank");
+                img.textContent = " -Image";
+                li.appendChild(document.createElement("br"));
+                let rmvBtn = document.createElement("button");
+                rmvBtn.classList.add("remove-btn");
+                rmvBtn.textContent = "Remove";
+                li.appendChild(rmvBtn);
+                offerLists[1].appendChild(li);
+                setTimeout(() => {
+                    li.style.opacity = "1";
+                    li.style.transform = "translateX(0px)";
+                }, 10);
                 }
                 tVal += Number(event.target.dataset.num)*1000;
                 checkWfl();
@@ -238,10 +273,34 @@ let favArr = [];
                     offerLists[0].querySelector(`.${event.target.dataset.type}val`).textContent = `(${(Number(obj[event.target.dataset.type])*(Number(event.target.dataset.num)*1000))/1000})`;
                 } else {
                 obj[event.target.dataset.type] = 1;
-                offerLists[0].innerHTML += `
-                <li data-type="${event.target.dataset.type}" data-num="${event.target.dataset.num}"><span class="${event.target.dataset.type}"></span> ${event.target.dataset.type} - ${event.target.dataset.num} <span class="${event.target.dataset.type}val"></span><br><button class="remove-btn">Remove</button></li>
-                `
+                let li = document.createElement("li");
+                li.classList.add("val-li");
+                li.dataset.type = event.target.dataset.type;
+                li.dataset.num = event.target.dataset.num;
+                let span = document.createElement("span");
+                span.classList.add(event.target.dataset.type);
+                li.appendChild(span);
+                li.appendChild(document.createTextNode(` ${event.target.dataset.type} - ${event.target.dataset.num}`));
+                let span2 = document.createElement("span");
+                span2.classList.add(`${event.target.dataset.type}val`)
+                li.appendChild(span2);
+                let img = document.createElement("a");
+                img.setAttribute("target", "_blank");
+                img.textContent = " -Image";
+                img.href = event.target.parentElement.children[0].src;
+                li.appendChild(img);
+                li.appendChild(document.createElement("br"));
+                let rmvBtn = document.createElement("button");
+                rmvBtn.classList.add("remove-btn");
+                rmvBtn.textContent = "Remove";
+                li.appendChild(rmvBtn);
+                offerLists[0].appendChild(li);
+                setTimeout(() => {
+                    li.style.opacity = "1";
+                    li.style.transform = "translateX(0px)";
+                }, 10);
                 }
+
                 yVal += Number(event.target.dataset.num)*1000;
                 checkWfl();
                 yourVal.textContent = yVal/1000;
@@ -262,7 +321,11 @@ let favArr = [];
                             }
                             offerLists[1].querySelector(`.${event.target.parentElement.dataset.type}`).textContent = `x${objO[event.target.parentElement.dataset.type]}`;
                         } else {
+                        event.target.parentElement.style.transform = "scale(0.2";
+                        event.target.parentElement.style.marginLeft = "-50px";
+                        setTimeout(() => {
                         event.target.parentElement.remove();
+                        }, 100)
                         delete objO[event.target.parentElement.dataset.type];
                         }
                         } else {
@@ -279,7 +342,11 @@ let favArr = [];
                             }
                             offerLists[0].querySelector(`.${event.target.parentElement.dataset.type}`).textContent = `x${obj[event.target.parentElement.dataset.type]}`; 
                         } else {
+                        event.target.parentElement.style.transform = "scale(0.2)";
+                        event.target.parentElement.style.marginLeft = "-50px";
+                        setTimeout(() => {
                         event.target.parentElement.remove();
+                        }, 100)
                         delete obj[event.target.parentElement.dataset.type];
                         }
                         }
@@ -405,6 +472,10 @@ let favArr = [];
         offerLists.forEach(list => {
             list.innerHTML = "";
         })
+        wfl.textContent = "FAIR";
+        wfl.style.color = "gold";
+        wfl.style.backgroundColor = "rgba(119, 137, 15, 0.337)";
+        wfl.style.border = "1px solid rgb(255, 225, 0)";
     });
     })
 const question = Array.from(document.getElementsByClassName("question"));
@@ -438,3 +509,12 @@ question[0].addEventListener("click", () => faqExpand(0));
 question[1].addEventListener("click", () => faqExpand(1));
 question[2].addEventListener("click", () => faqExpand(2));
 question[3].addEventListener("click", () => faqExpand(3));
+const glowOrbs = Array.from(document.getElementsByClassName("glow-orb"));
+let orbPos = 150;
+let swap = true;
+glowOrbs.forEach(orb => {
+    orb.style.top = `${orbPos}px`;
+    orbPos += 400;
+    orb.style.left = `${Math.random()*100}%`;
+    orb.style.boxShadow = `0 0 250px 50px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
+})
