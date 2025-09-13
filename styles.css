@@ -349,11 +349,16 @@ svg:hover {
     width: 70%;
     height: 25px;
     font-size: 13px;
-    padding: 2px 9px 2px 9px;
+    padding: 15px 10px 15px 10px;
     border-radius: 50px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid gray;
     color: white;
+    transition: border 0.2s linear;
+}
+#search:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 3px white;
 }
 .item-selection-container {
     width: 100%;
@@ -419,9 +424,9 @@ button {
     width: fit-content !important;
 }
 #clear-btn, .remove-btn, .remove-a {
-    width: 120px;
-    height: 30px;
-    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 15px;
     cursor: pointer;
     background: linear-gradient(
         45deg,
@@ -429,6 +434,7 @@ button {
         rgb(255, 111, 0)
     );
     border-radius: 4px;
+    box-shadow: 4 px 5px 4px black;
     border: 1px solid black;
     transition: transform 0.1s linear;
 }
@@ -456,6 +462,7 @@ button {
     flex-direction: column;
     padding: 20px;
     box-shadow: 3px 3px 4px black;
+    border-radius: 5px;
 }
 .hit-effect p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -890,6 +897,10 @@ html {
     padding: 5px 10px;
     border-radius: 10px;
     border: 1px solid white; 
+    transition: transform 0.08s linear;
+}
+.values h3:hover {
+    transform: scale(1.02);
 }
 .values i {
     background-color: rgba(255, 255, 0, 0.279);
@@ -906,4 +917,14 @@ html {
 .val-li a {
     color: purple;
     margin-left: 5px;
+}
+#clear-btn i {
+    font-size: 16px;
+    margin-right: 0px;
+    background: none;
+    transition: transform 0.1s linear, margin-right 0.1s linear;
+}
+#clear-btn:hover i {
+    margin-right: 10px;
+    transform: scale(0.8);
 }
