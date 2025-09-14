@@ -938,7 +938,7 @@ html {
     margin: auto;
     border: 3px solid;
     border-image: linear-gradient(90deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
-    animation: portal-spin 6s linear infinite;
+    animation: portal-spin 4s linear infinite;
     margin-bottom: 30px;
 }
 .portal img {
