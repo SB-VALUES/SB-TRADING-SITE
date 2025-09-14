@@ -516,5 +516,5 @@ glowOrbs.forEach(orb => {
     orb.style.top = `${orbPos}px`;
     orbPos += 400;
     orb.style.left = `${Math.random()*100}%`;
-    orb.style.boxShadow = `0 0 250px 40px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
+    orb.style.boxShadow = `0 0 250px 50px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
 })
