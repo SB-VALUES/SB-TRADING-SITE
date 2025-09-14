@@ -2,7 +2,7 @@ body {
     background: linear-gradient(
         40deg,
         rgb(0, 0, 0),
-        rgb(43, 38, 48)
+        rgb(36, 33, 39)
     );
     color: white;
     font-family:sans-serif;
@@ -927,4 +927,57 @@ html {
 #clear-btn:hover i {
     margin-right: 10px;
     transform: scale(0.8);
+}
+.portal {
+    width: 80%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    animation: portal-spin 6s linear infinite;
+    margin-bottom: 30px;
+}
+.portal img {
+    border-radius: 20px;
+}
+.portal a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@keyframes portal-spin {
+    0% {
+        border-image: linear-gradient(90deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    }
+    25% {
+        border-image: linear-gradient(180deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;    
+    }
+    50% {
+        border-image: linear-gradient(270deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    }
+    75% {
+        border-image: linear-gradient(360deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    }
+    100% {
+        border-image: linear-gradient(90deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
+    }
+}
+.portal-btn {
+    width: 40%;
+    height: 25px;
+    animation: gradient 2s linear infinite;
+    background-color: transparent;
+    border: 1px solid rgb(106, 8, 175);
+    color: rgb(106, 8, 175);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+.portal-btn:hover {
+    background-color: rgb(106, 8, 175);
+    color: white;
 }
