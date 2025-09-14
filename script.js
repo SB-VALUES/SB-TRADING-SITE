@@ -88,7 +88,7 @@ let favArr = [];
 
     </div>
     <div class="crate-break">
-        <h4>StPatricks</h4><h4>Pot O' Gold</h4><img src="https://ik.imagekit.io/qhig1xz2i/StPatricks%20Pot%20O%20Gold.png?updatedAt=1754162416804" class="crate-icon"><div class="crate-line"></div>
+        <h4>StPatricks</h4><h4>Pot</h4><h4>O'</h4><h4>Gold</h4><img src="https://ik.imagekit.io/qhig1xz2i/StPatricks%20Pot%20O%20Gold.png?updatedAt=1754162416804" class="crate-icon"><div class="crate-line"></div>
     </div>
     <div class="crate-items patrick">
 
@@ -516,5 +516,5 @@ glowOrbs.forEach(orb => {
     orb.style.top = `${orbPos}px`;
     orbPos += 400;
     orb.style.left = `${Math.random()*100}%`;
-    orb.style.boxShadow = `0 0 250px 50px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
+    orb.style.boxShadow = `0 0 250px 40px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
 })
