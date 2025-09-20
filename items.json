@@ -379,7 +379,7 @@
 },
 {
   "name": "Portal",
-  "val": 3575,
+  "val": 3900,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064707.png?updatedAt=1747837226899",
 "rarity": "mythical"
@@ -582,7 +582,7 @@
 },
 {
 "name": "BarzilianNexus",
-"val": 6500,
+"val": 6825,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140554.png?updatedAt=1751663199670",
 "rarity": "mythical"
@@ -813,7 +813,7 @@
 },
 {
 "name": "Pandecrownium",
-"val": 15600,
+"val": 14950,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
 "rarity": "mythical"
@@ -1023,7 +1023,7 @@
 },
 {
 "name": "SaintMarked",
-"val": 15275,
+"val": 16250,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
 "rarity": "mythical"
@@ -1079,7 +1079,7 @@
 },
 {
   "name": "Haloheart",
-  "val": 3575,
+  "val": 3900,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
   "rarity": "mythical"
@@ -1359,7 +1359,7 @@
 },
 {
   "name": "Hitman",
-  "val": 5525,
+  "val": 7800,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
 "rarity": "legendary"
