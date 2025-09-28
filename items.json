@@ -635,7 +635,7 @@
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075149.png?updatedAt=1755270198705",
 "rarity": "uncommon"
-},
+},  
 {
 "name": "BarzilianMoola",
 "val": 0.042,
@@ -1268,21 +1268,21 @@
 },
 {
   "name": "CrimsonSplash",
-  "val": 695,
+  "val": 95,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
 "rarity": "rare"
 },
 {
   "name": "Batty",
-  "val": 710,
+  "val": 97.5,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065536.png?updatedAt=1747837506996",
 "rarity": "epic"
 },
 {
   "name": "Abyss",
-  "val": 735,
+  "val": ,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065543.png?updatedAt=1747837507172",
 "rarity": "epic"
@@ -1372,4 +1372,3 @@
 "rarity": "mythical"
 }
 ]
-
