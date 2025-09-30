@@ -455,7 +455,7 @@
 "rarity": "uncommon"
 },
 {
-"name": "J*bApplication",
+"name": "JobApplication",
 "val": 0.058,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140228.png?updatedAt=1751663196940",
@@ -1198,70 +1198,70 @@
 },
 {
   "name": "Trollrequiem",
-  "val": 15,
+  "val": 0.16,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065412.png?updatedAt=1747837504768",
 "rarity": "uncommon"
 },
 {
   "name": "Runes",
-  "val": 14.5,
+  "val": 0.15,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065421.png?updatedAt=1747837503977",
 "rarity": "uncommon"
 },
 {
   "name": "RealisticEye",
-  "val": 14.5,
+  "val": 0.15,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065431.png?updatedAt=1747837504834",
 "rarity": "uncommon"
 },
 {
   "name": "LavaSkulls",
-  "val": 15,
+  "val": 0.16,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065438.png?updatedAt=1747837504847",
 "rarity": "uncommon"
 },
 {
   "name": "FallLeaves",
-  "val": 14.5,
+  "val": 0.15,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065445.png?updatedAt=1747837504840",
 "rarity": "uncommon"
 },
 {
   "name": "CauldronBubbles",
-  "val": 12,
+  "val": 0.13,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065452.png?updatedAt=1747837504844",
 "rarity": "uncommon"
 },
 {
   "name": "WitchsSpell",
-  "val": 56.8,
+  "val": 2.15,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065500.png?updatedAt=1747837504781",
 "rarity": "rare"
 },
 {
   "name": "ShadowBite",
-  "val": 56.5,
+  "val": 2.1,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065507.png?updatedAt=1747837504762",
 "rarity": "rare"
 },
 {
   "name": "Run",
-  "val": 57,
+  "val": 2.2,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065515.png?updatedAt=1747837504820",
 "rarity": "rare"
 },
 {
   "name": "Crows",
-  "val": 55,
+  "val": 2,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065524.png?updatedAt=1747837504459",
 "rarity": "rare"
@@ -1271,7 +1271,7 @@
   "val": 95,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
-"rarity": "rare"
+"rarity": "epic"
 },
 {
   "name": "Batty",
