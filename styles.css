@@ -162,6 +162,8 @@ body {
 }
 .feature:hover {
     transform: translateY(-15px);
+    border: 1px solid;
+    border-image: linear-gradient(270deg, rgb(164, 17, 204), rgb(118, 118, 13)) 1;
 }
 .feature p {
     font-size: 15px;
@@ -187,6 +189,7 @@ body {
 }
 .features-head-text {
     margin-left: 50px;
+    transition: transform 0.1s linear;
 }
 .feature-btn {
     width: 100%;
@@ -200,32 +203,13 @@ body {
     gap: 30px;
     flex-wrap: wrap;
 }
-.abt-us {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-sizing: border-box;
-    padding: 0 60px;
-    margin: 60px 0;
-}
-.abt-us h2 {
-    font-size: 35px;
-    text-shadow: 0 0 1.5px white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.abt-us p {
-    width: 80%;
-    font-size: 21px;
-}
 .dc-info {
     width: 100vw;
     height: fit-content;
     background: linear-gradient(
         360deg,
-        rgb(54, 54, 54),
-        rgb(67, 42, 79)
+        rgb(29, 29, 29),
+        rgb(21, 21, 21)
     );
     margin-bottom: 125px;
     box-sizing: border-box;
@@ -238,7 +222,6 @@ body {
 .dc-info img {
     width: 200px;
     border-radius: 50px;
-    box-shadow: 0 0 5px yellow;
 }
 .dc-info h2 {
     font-size: 35px;
@@ -270,7 +253,7 @@ svg:hover {
 }
 .btn:hover, .add:hover, .fav-btn:hover {
     color: white;
-    transform: translateY(-1px);
+    transform: scale(1.03);
 }
 .features-center {
     display: flex;
@@ -288,6 +271,7 @@ svg:hover {
 .faq-mini-head {
     margin: -20px 0 50px 50px;
     color: rgb(197, 139, 250);
+    transition: transform 0.1s linear;
 }
 .faq {
     width: 100%;
@@ -698,7 +682,7 @@ button {
     .nav-bar h3 {
         margin-left: auto;
     }
-    .abt-us, .head-text p, .head-text img {
+    .abt, .head-text p, .head-text img {
         display: none !important;
     }
     .dc-info img, .dc-info ul li, .dc-info h2, svg{
@@ -718,13 +702,13 @@ button {
     .small {
         display: none !important;
     }
-    .abt-us p {
+    .abt p {
         font-size: 14px !important;
     }
-    .abt-us h2 {
+    .abt h2 {
         font-size: 28px !important;
     }
-    .abt-us .mini-head {
+    .abt .mini-head {
         font-size: 15px !important;
     }
     .head-text h1{
@@ -927,4 +911,41 @@ html {
 #clear-btn:hover i {
     margin-right: 10px;
     transform: scale(0.8);
+}
+.gg-container {
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+    background-color: rgba(62, 62, 62, 0.126);
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 20px;
+    transition: transform 0.1s linear;
+    box-shadow: 5px 5px 5px -2px black;
+}
+.gg-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px -35px white;
+}
+.gg-container h2 {
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+.gg-container p {
+    color: rgb(255, 10, 239);
+}
+.features-head-text:hover, .faq-mini-head:hover {
+    transform: scale(1.02);
+    cursor: default;
+}
+.abt p {
+    color: white;
+}
+.web-start {
+    margin-top: 100px;
+}
+.web-end {
+    margin-bottom: 200px;
 }
