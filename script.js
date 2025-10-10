@@ -28,6 +28,7 @@ let crates = [
     "jack",
     "guide"
 ]
+let chart;
 let obj = {};
 let objO = {};
 let favArr = [];
@@ -153,6 +154,18 @@ let favArr = [];
         items.forEach(item => {
             if(item.crate === crate) {
             Array.from(document.getElementsByClassName(crate)).forEach(itemHtml => {
+                if(item.rarity == "mythical") {
+            itemHtml.innerHTML += `
+            <div class="hit-effect">
+                <img src="${item.url}">
+                <span class="rarity"><i class="fa fa-gem"></i><p>${item.rarity}</p></span>
+                <span class="hit-effect-info gold"><i class="fa fa-coins"></i><p>${item.val}</p></span>
+                <hr style="width: 80%; border-color: black">
+                <button class="fav-btn ${item.name}">Favorite</button>
+                <button class="add" data-rare="${item.rarity}" data-type="${item.name}" data-num="${item.val}">Add</button>
+                <button class="chart-btn" data-chart="${item.name}">Chart Data</button>
+            </div>`
+                } else {
             itemHtml.innerHTML += `
             <div class="hit-effect">
                 <img src="${item.url}">
@@ -162,17 +175,66 @@ let favArr = [];
                 <button class="fav-btn ${item.name}">Favorite</button>
                 <button class="add" data-rare="${item.rarity}" data-type="${item.name}" data-num="${item.val}">Add</button>
             </div>`
+                }
             })
+            
             }
         });
     }
     crates.forEach(crate => {
-        addHtml(crate)
+        addHtml(crate);
     });
     })
     .then(() => {
         const favBtns = Array.from(document.getElementsByClassName("fav-btn"));
         const addBtns = Array.from(document.getElementsByClassName("add"));
+        const chartBtns = Array.from(document.getElementsByClassName("chart-btn"));
+        document.getElementById("chart-close").addEventListener("click", event => {
+            setTimeout(() =>{
+            event.target.parentElement.style.width = "0";
+        }, 200)
+            event.target.parentElement.style.opacity = "0";
+            document.getElementById("body").style.overflowY = "scroll";
+            chart.destroy();
+        })
+        chartBtns.forEach(btn => {
+            btn.addEventListener("click", event => {
+                let chartItem = items.find(item => item.name == event.target.dataset.chart);
+                document.getElementById("body").style.overflowY = "hidden";
+                const ctx = document.getElementById("chart");
+                document.getElementById("chart-container").style.width = "100%";
+                setTimeout(() => {
+                document.getElementById("chart-container").style.opacity = "1";
+                }, 200);
+                chart = new Chart(ctx, {
+                  type: 'line',
+                  data: {
+                    labels: chartItem.chartLabels,
+                    datasets: [{
+                        label: chartItem.name,
+                        tension: '0.25',
+                        data: chartItem.chartData,
+                        borderWidth: 2,
+                        borderColor: 'rgb(195, 150, 0)',
+                        backgroundColor: 'rgba(170, 135, 0, 0.08)',
+                        fill: true,
+                        pointHitRadius: 22,
+                        pointHoverRadius: 6, 
+                    }]
+                  },
+                  options: {
+                    scales: {
+                      x: {
+                        grid: { color: 'rgba(100, 0, 130, 0.3)' }
+                      },
+                      y: {
+                        grid: { color: 'rgba(170, 135, 0, 0.15)'}
+                      }
+                    }
+                  }
+                });
+            })
+        })
     const filterStat = document.getElementById("filter");
     const filterFunc = () => {
         addBtns.forEach(btn => {
@@ -363,6 +425,7 @@ let favArr = [];
                 } else {
                 event.target.classList.add("favorite");
                 clone = event.target.parentElement.cloneNode(true);
+                clone.children[6].remove();
                 clone.classList.add("favorited");
                 itemSelection[1].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[1].getElementsByClassName("favorited")).forEach(favorite => {
@@ -382,6 +445,7 @@ let favArr = [];
                 } else {
                 event.target.classList.add("favorite");
                 clone = event.target.parentElement.cloneNode(true);
+                clone.children[6].remove();
                 clone.classList.add("favorited");
                 itemSelection[0].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[0].getElementsByClassName("favorited")).forEach(favorite => {
