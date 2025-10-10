@@ -200,7 +200,7 @@
   "val": 0.39,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001837.png?updatedAt=1747837170428",
-"rarity": "rare"
+  "rarity": "rare"
 },
 {
   "name": "Glitched",
@@ -249,7 +249,9 @@
   "val": 4875,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001927.png?updatedAt=1747837170715",
-"rarity": "mythical"
+  "rarity": "mythical",
+  "chartData": [4380, 4425, 4550, 4875],
+  "chartLabels": ["7/10/25", "7/11/25", "8/5/25", "9/30/25"]
 },
 {
   "name": "Snow",
@@ -382,7 +384,9 @@
   "val": 3900,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064707.png?updatedAt=1747837226899",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [3212, 3412, 3341, 3475, 3375, 3575, 3900],
+"chartLabels": ["6/26/25", "6/27/25", "7/4/25", "7/11/25", "7/25/25", "8/1/25", "9/19/25"]
 },
 {
   "name": "VibrantSupernova",
@@ -445,7 +449,9 @@
   "val": 5850,
   "crate": "overkill",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064917.png?updatedAt=1747837299431",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [5355, 5255, 5525, 5850],
+"chartLabels": ["7/10/25", "7/11/25", "8/5/25", "9/30/25"]
 },
 {
 "name": "EruptingBricks",
@@ -585,7 +591,9 @@
 "val": 7150,
 "crate": "barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-07-04%20140554.png?updatedAt=1751663199670",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [5899, 6300, 6825, 6500, 6825, 7150],
+"chartLabels": ["7/4/25", "7/18/25", "8/1/25", "9/5/25", "9/19/25", "10/8/25"]
 },
 {
 "name": "StabbingNails",
@@ -711,7 +719,9 @@
 "val": 11700,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [9475, 10725, 11375, 11700],
+"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25"]
 },
 {
 "name": "TomeBurst",
@@ -816,7 +826,9 @@
 "val": 15275,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [11609, 14700, 15112, 14300, 15600, 14950, 15275],
+"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "9/5/25", "9/8/25", "9/19/25", "10/6/25"]
 },
 {
 "name": "PastelConfetti",
@@ -914,7 +926,9 @@
 "val": 10725,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [9110, 9100, 9700, 10725],
+"chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25"]
 },
 {
 "name": "DustBomb",
@@ -1026,7 +1040,9 @@
 "val": 16575,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [15800, 15350, 14300, 16250, 16575],
+"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25"]
 },
 {
   "name": "Roses",
@@ -1079,10 +1095,12 @@
 },
 {
   "name": "Haloheart",
-  "val": 4550,
+  "val": 6500,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
-  "rarity": "mythical"
+  "rarity": "mythical",
+"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500],
+"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25"]
 },
 {
   "name": "Starrynight",
@@ -1194,7 +1212,9 @@
   "val": 7150,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [7300, 7650, 8000, 7710, 7150],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25"]
 },
 {
   "name": "Trollrequiem",
@@ -1306,7 +1326,9 @@
   "val": 15725,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [35000, 31800, 29400, 26400, 17062, 15725],
+"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25"]
 },
 {
   "name": "Smartcat",
@@ -1369,6 +1391,8 @@
   "val": 48750,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070254.png?updatedAt=1747837531849",
-"rarity": "mythical"
+"rarity": "mythical",
+"chartData": [33700, 42900, 43875, 42000, 48750],
+"chartLabels": ["7/25/25", "9/8/25", "9/9/25", "9/12/25", "9/13/25"]
 }
 ]
