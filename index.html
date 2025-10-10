@@ -34,7 +34,7 @@ This code is not open source. Do not copy or reuse without permission.
 </script>
 <!--GOOGLE TAG(s) ABOVE-->
 </head>
-<body>
+<body id="body">
     <nav class="nav-bar">
         <div class="menu"><i class="fa fa-list"></i> Menu<div class="menu-buttons">
         <a target="_blank" href="credits.html">Contact Information</a>
@@ -180,7 +180,7 @@ This code is not open source. Do not copy or reuse without permission.
             <div class="feature">
                 <h3>Discord | WFL</h3>
                 <div class="feature-break"></div>
-                <p>Use via discord server! The WFL (win/fair/lose) channel is for you to post any trade offers that you are unsure to take a trade a trade helper can help you when you use the wfl ping!
+                <p>Use via discord server! The WFL channel is for you to post any trade offers that you are unsure to take a trade a trade helper can help you when you use the wfl ping!
                 </p>
                 <div class="icon-container">
                 <i class="fa fa-w feature-icon"></i>
@@ -208,12 +208,12 @@ This code is not open source. Do not copy or reuse without permission.
                 <a target="_blank" href="https://discord.gg/8KPN7dqXxt"><button class="btn feature-btn">Join the discord! <i class="fa fa-arrow-right"></i></button></a>
             </div>
             <div class="feature">
-                <h3>Original</h3>
+                <h3>Updated Graphs</h3>
                 <div class="feature-break"></div>
-                <p>The SBV is an original site for slap battles! It's the first trade calculator to emerge and contains the most accurate value list at the moment!
+                <p>View graphs of the mythic effects 7 most recent updates! Study it and find whats rising to make sure you can get ahead!
                 </p>
                 <div class="icon-container">
-                <i class="fa-solid fa-lightbulb feature-icon"></i>
+                <i class="fa fa-chart-line feature-icon"></i>
                 </div>
                 <a href="#abt"><button class="btn feature-btn">About the SBV <i class="fa fa-arrow-right"></i></button></a>
             </div>
@@ -302,6 +302,16 @@ This code is not open source. Do not copy or reuse without permission.
         </div>
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div id="chart-container">
+    <button id="chart-close">X</button>
+    <canvas id="chart"></canvas>
+</div>
+<style>
+    canvas {
+        background-color: rgb(25, 25, 25);
+    }
+</style>
         <script src="script.js"></script>
 </body>
 </html>
