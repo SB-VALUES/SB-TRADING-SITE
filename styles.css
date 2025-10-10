@@ -5,7 +5,7 @@ body {
         rgb(36, 33, 39)
     );
     color: white;
-    font-family:sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -251,7 +251,7 @@ svg:hover {
     border-radius: 4px;
     transition: transform 0.1s linear;
 }
-.btn:hover, .add:hover, .fav-btn:hover {
+.btn:hover, .add:hover, .fav-btn:hover, .chart-btn:hover {
     color: white;
     transform: scale(1.03);
 }
@@ -504,7 +504,7 @@ button {
     background: linear-gradient(
         45deg,
         rgb(96, 8, 115),
-        rgb(152, 9, 106)
+        rgb(255, 13, 178)
     );
     border: 1px solid black;
     cursor: pointer;
@@ -512,17 +512,20 @@ button {
     padding: 2px;
     box-shadow: 3px 3px 2px -2px black;
 }
-.fav-btn {
+.fav-btn, .chart-btn {
     background: linear-gradient(
     45deg,
     rgb(115, 95, 8),
-    rgb(152, 152, 9)
+    rgb(229, 229, 12)
     );
     border: 1px solid black;
     cursor: pointer;
     border-radius: 3px;
     padding: 2px;
     box-shadow: 3px 3px 2px -2px black;
+}
+.chart-btn {
+    margin-top: 5px;
 }
 .footer, .footer-shrink {
     width: 100%;
@@ -948,4 +951,46 @@ html {
 }
 .web-end {
     margin-bottom: 200px;
+}
+.hit-effect-graph-btn {
+    position: relative;
+    left: 105px;
+    bottom: 5px;
+    color: rgb(64, 64, 64);
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.1s linear;
+}
+.hit-effect-graph-btn:hover {
+    color: white;
+}
+#chart {
+    width: 100%;
+    height: 100%;
+}
+#chart-close {
+    color: red;
+    background: transparent;
+    position: relative;
+    left: calc(100% - 35px);
+    width: 35px;
+    border: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+    top: 35px;
+}
+#chart-close:hover {
+    color: white;
+}
+#chart-container {
+    transition: opacity 0.2s linear;
+    opacity: 0;
+    position: fixed;
+    width: 0;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
 }
