@@ -1209,12 +1209,12 @@
 },
 {
   "name": "Enchanted",
-  "val": 6825,
+  "val": 6175,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
 "rarity": "mythical",
-"chartData": [7300, 7650, 8000, 7710, 7150, 6825],
-"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25"]
+"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25"]
 },
 {
   "name": "Trollrequiem",
