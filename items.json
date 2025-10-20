@@ -822,12 +822,12 @@
 "rarity": "legendary"
 },
 {
-"name": "Pandecrownium",
-"val": 20475,
+"name": "Pandecrownium", 
+"val": 22425,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
 "rarity": "mythical",
-"chartData": [15112, 14300, 15600, 14950, 15275, 15925, 17225, 17875, 19175, 20475],
+"chartData": [15112, 14300, 15600, 14950, 15275, 15925, 17225, 17875, 19175, 22425],
 "chartLabels": ["8/5/25", "9/5/25", "9/8/25", "9/19/25", "10/6/25", "10/10/25", "10/15/25", "10/17/25", "10/18/25", "10/19/25"]
 },
 {
