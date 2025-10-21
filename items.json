@@ -1218,117 +1218,117 @@
 },
 {
   "name": "Trollrequiem",
-  "val": 0.16,
+  "val": 85,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065412.png?updatedAt=1747837504768",
 "rarity": "uncommon"
 },
 {
   "name": "Runes",
-  "val": 0.15,
+  "val": 80,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065421.png?updatedAt=1747837503977",
 "rarity": "uncommon"
 },
 {
   "name": "RealisticEye",
-  "val": 0.15,
+  "val": 80,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065431.png?updatedAt=1747837504834",
 "rarity": "uncommon"
 },
 {
   "name": "LavaSkulls",
-  "val": 0.16,
+  "val": 85,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065438.png?updatedAt=1747837504847",
 "rarity": "uncommon"
 },
 {
   "name": "FallLeaves",
-  "val": 0.15,
+  "val": 80,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065445.png?updatedAt=1747837504840",
 "rarity": "uncommon"
 },
 {
   "name": "CauldronBubbles",
-  "val": 0.13,
+  "val": 70,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065452.png?updatedAt=1747837504844",
 "rarity": "uncommon"
 },
 {
   "name": "WitchsSpell",
-  "val": 2.15,
+  "val": 300,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065500.png?updatedAt=1747837504781",
 "rarity": "rare"
 },
 {
   "name": "ShadowBite",
-  "val": 2.1,
+  "val":  290,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065507.png?updatedAt=1747837504762",
 "rarity": "rare"
 },
 {
   "name": "Run",
-  "val": 2.2,
+  "val": 310,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065515.png?updatedAt=1747837504820",
 "rarity": "rare"
 },
 {
   "name": "Crows",
-  "val": 2,
+  "val": 280,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065524.png?updatedAt=1747837504459",
 "rarity": "rare"
 },
 {
   "name": "CrimsonSplash",
-  "val": 95,
+  "val": 1600,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
 "rarity": "epic"
 },
 {
   "name": "Batty",
-  "val": 97.5,
+  "val": 1700,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065536.png?updatedAt=1747837506996",
 "rarity": "epic"
 },
 {
   "name": "Abyss",
-  "val": 97.5,
+  "val": 1700,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065543.png?updatedAt=1747837507172",
 "rarity": "epic"
 },
 {
   "name": "EerieFog",
-  "val": 1267.5,
+  "val": 8450,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065551.png?updatedAt=1747837507356",
 "rarity": "legendary"
 },
 {
   "name": "JackOLantern",
-  "val": 1300,
+  "val": 8775,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065615.png?updatedAt=1747837507316",
 "rarity": "legendary"
 },
 {
   "name": "Damned",
-  "val": 15725,
+  "val": 86125,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
 "rarity": "mythical",
-"chartData": [35000, 31800, 29400, 26400, 17062, 15725],
-"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25"]
+"chartData": [35000, 31800, 29400, 26400, 17062, 15725, 86125],
+"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25", "10/20/25"]
 },
 {
   "name": "Smartcat",
