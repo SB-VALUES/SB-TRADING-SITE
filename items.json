@@ -716,12 +716,12 @@
 },
 {
 "name": "Dodecanado",
-"val": 12025,
+"val": 13325,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
 "rarity": "mythical",
-"chartData": [9475, 10725, 11375, 11700, 12025],
-"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25"]
+"chartData": [9475, 10725, 11375, 11700, 12025, 13325],
+"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25", "10/25/25"]
 },
 {
 "name": "TomeBurst",
@@ -1037,7 +1037,7 @@
 },
 {
 "name": "SaintMarked",
-"val": 17225,
+"val": 17875,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
 "rarity": "mythical",
@@ -1209,12 +1209,12 @@
 },
 {
   "name": "Enchanted",
-  "val": 7150,
+  "val": 7475,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
 "rarity": "mythical",
-"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150],
-"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25"]
+"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25"]
 },
 {
   "name": "Trollrequiem",
