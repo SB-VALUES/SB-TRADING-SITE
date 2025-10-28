@@ -596,6 +596,113 @@
 "chartLabels": ["7/4/25", "7/18/25", "8/1/25", "9/5/25", "9/19/25", "10/8/25"]
 },
 {
+"name": "WitchsTreats",
+"val": 0.04,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20180738.png?updatedAt=1761613834038",
+"rarity": "uncommon"
+},
+{
+"name": "SpiderInfestation",
+"val": 0.04,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20180757.png?updatedAt=1761613834311",
+"rarity": "uncommon"
+},
+{
+"name": "VapireCat",
+"val": 0.043,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20180808.png?updatedAt=1761613834120",
+"rarity": "uncommon"
+},
+{
+"name": "LetsTakeALook",
+"val": 0.04,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20180911.png?updatedAt=1761613834016",
+"rarity": "uncommon"
+},
+{
+"name": "PumpkinMoon",
+"val": 0.04,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20180925.png?updatedAt=1761613834027",
+"rarity": "uncommon"
+},
+{
+"name": "CozyMoon",
+"val": 0.67,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185444.png?updatedAt=1761616568230",
+"rarity": "rare"
+},
+{
+"name": "GhostlyCleavers",
+"val": 0.7,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185511.png?updatedAt=1761616568438",
+"rarity": "rare"
+},
+{
+"name": "PumpkinSplash",
+"val": 0.67,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185521.png?updatedAt=1761616568420",
+"rarity": "rare"
+},
+{
+"name": "PutridStew",
+"val": 0.67,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185531.png?updatedAt=1761616568364",
+"rarity": "rare"
+},
+{
+"name": "CorruptingMark",
+"val": 61.75,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185801.png?updatedAt=1761616720280",
+"rarity": "epic"
+},
+{
+"name": "WerewolfLaceration",
+"val": 65,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185810.png?updatedAt=1761616720320",
+"rarity": "epic"
+},
+{
+"name": "ZombiePinata",
+"val": 58.5,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20185817.png?updatedAt=1761616720149",
+"rarity": "epic"
+},
+{
+"name": "Lovebite",
+"val": 975,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190620.png?updatedAt=1761617190444",
+"rarity": "legendary"
+},
+{
+"name": "SpiritSurge",
+"val": 1137.5,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190603.png?updatedAt=1761617190448",
+"rarity": "legendary"
+},
+{
+"name": "Necrobloxicon",
+"val": 13000,
+"crate": "coffin",
+"url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190717.png?updatedAt=1761617253715",
+"rarity": "mythical",
+"chartData": [13000],
+"chartLabels": ["10/27/25"]
+},
+{
 "name": "StabbingNails",
 "val": 0.041,
 "crate": "evil-barzil",
@@ -816,7 +923,7 @@
 },
 {
 "name": "DemonicHex",
-"val": 1137.5,
+"val": 1300,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194859.png?updatedAt=1748404334202",
 "rarity": "legendary"
