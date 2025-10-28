@@ -19,6 +19,7 @@ let crates = [
     "bob",
     "barzil",
     "overkill",
+    "coffin",
     "evil-barzil",
     "alchemist",
     "easter",
@@ -71,8 +72,16 @@ let favArr = [];
 
     </div>
     <div class="crate-break">
+        <h4>Little</h4><h4>Coffin</h4><h4>of</h4><h4>Horrors</h4><img src="https://ik.imagekit.io/qhig1xz2i/Little%20Coffin%20of%20Horrors.png?updatedAt=1761544509100" class="crate-icon"><div class="crate-line"></div>
+    </div>
+    
+    <div class="crate-items coffin">
+
+    </div>
+    <div class="crate-break">
         <h4>Evil</h4><h4>Barzil</h4><h4>Crate</h4><img src="https://ik.imagekit.io/qhig1xz2i/Evil%20Barzil%20Crate.png?updatedAt=1756535837855" class="crate-icon"><div class="crate-line"></div>
     </div>
+    
     <div class="crate-items evil-barzil">
 
     </div>
@@ -425,7 +434,9 @@ let favArr = [];
                 } else {
                 event.target.classList.add("favorite");
                 clone = event.target.parentElement.cloneNode(true);
-                clone.children[6].remove();
+                if (clone.children.length > 6) {
+                    clone.children[clone.children.length - 1].remove();
+                }
                 clone.classList.add("favorited");
                 itemSelection[1].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[1].getElementsByClassName("favorited")).forEach(favorite => {
@@ -445,7 +456,9 @@ let favArr = [];
                 } else {
                 event.target.classList.add("favorite");
                 clone = event.target.parentElement.cloneNode(true);
-                clone.children[6].remove();
+                if (clone.children.length > 6) {
+                    clone.children[clone.children.length - 1].remove();
+                }
                 clone.classList.add("favorited");
                 itemSelection[0].querySelector(".favorites").appendChild(clone);
                 Array.from(itemSelection[0].getElementsByClassName("favorited")).forEach(favorite => {
