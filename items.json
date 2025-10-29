@@ -695,12 +695,12 @@
 },
 {
 "name": "Necrobloxicon",
-"val": 13000,
+"val": 12025,
 "crate": "coffin",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190717.png?updatedAt=1761617253715",
 "rarity": "mythical",
-"chartData": [13000],
-"chartLabels": ["10/27/25"]
+"chartData": [13000, 12025],
+"chartLabels": ["10/27/25", "10/29/25"]
 },
 {
 "name": "StabbingNails",
@@ -1316,12 +1316,12 @@
 },
 {
   "name": "Enchanted",
-  "val": 7475,
+  "val": 7800,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
 "rarity": "mythical",
-"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475],
-"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25"]
+"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475, 7800],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25", "10/27/25"]
 },
 {
   "name": "Trollrequiem",
@@ -1416,14 +1416,14 @@
 },
 {
   "name": "EerieFog",
-  "val": 13000,
+  "val": 17225,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065551.png?updatedAt=1747837507356",
 "rarity": "legendary"
 },
 {
   "name": "JackOLantern",
-  "val": 13975,
+  "val": 18850,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065615.png?updatedAt=1747837507316",
 "rarity": "legendary"
