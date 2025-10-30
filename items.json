@@ -1430,12 +1430,12 @@
 },
 {
   "name": "Damned",
-  "val": 86125,
+  "val": 105625,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
 "rarity": "mythical",
-"chartData": [35000, 31800, 29400, 26400, 17062, 15725, 86125],
-"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25", "10/20/25"]
+"chartData": [35000, 31800, 29400, 26400, 17062, 15725, 86125, 105625],
+"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25", "10/20/25", "10/30/25"]
 },
 {
   "name": "Smartcat",
@@ -1488,18 +1488,18 @@
 },
 {
   "name": "Hitman",
-  "val": 10075,
+  "val": 12025,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
 "rarity": "legendary"
 },
 {
   "name": "Relude",
-  "val": 84500,
+  "val": 97500,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070254.png?updatedAt=1747837531849",
 "rarity": "mythical",
-"chartData": [33700, 42900, 43875, 42000, 48750, 84500],
-"chartLabels": ["7/25/25", "9/8/25", "9/9/25", "9/12/25", "9/13/25", "10/15/25"]
+"chartData": [33700, 42900, 43875, 42000, 48750, 84500, 97500],
+"chartLabels": ["7/25/25", "9/8/25", "9/9/25", "9/12/25", "9/13/25", "10/15/25", "10/30/25"]
 }
 ]
