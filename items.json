@@ -681,14 +681,14 @@
 },
 {
 "name": "Lovebite",
-"val": 975,
+"val": 812.5,
 "crate": "coffin",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190620.png?updatedAt=1761617190444",
 "rarity": "legendary"
 },
 {
 "name": "SpiritSurge",
-"val": 1137.5,
+"val": 975,
 "crate": "coffin",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190603.png?updatedAt=1761617190448",
 "rarity": "legendary"
@@ -1144,12 +1144,12 @@
 },
 {
 "name": "SaintMarked",
-"val": 18850,
+"val": 19500,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
 "rarity": "mythical",
-"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175],
-"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25"]
+"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175, 19500],
+"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25", "11/4/25"]
 },
 {
   "name": "Roses",
@@ -1202,12 +1202,12 @@
 },
 {
   "name": "Haloheart",
-  "val": 6825,
+  "val": 7475,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
   "rarity": "mythical",
-"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825 ],
-"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25"]
+"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825, 7475],
+"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25", "10/31/25"]
 },
 {
   "name": "Starrynight",
@@ -1316,12 +1316,12 @@
 },
 {
   "name": "Enchanted",
-  "val": 7800,
+  "val": 8125,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
 "rarity": "mythical",
-"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475, 7800],
-"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25", "10/27/25"]
+"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475, 7800, 8125],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25", "10/27/25", "11/4/25"]
 },
 {
   "name": "Trollrequiem",
