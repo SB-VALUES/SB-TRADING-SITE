@@ -211,21 +211,21 @@
 },
 {
   "name": "RGB",
-  "val": 23,
+  "val": 26,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001852.png?updatedAt=1747837170587",
 "rarity": "epic"
 },
 {
   "name": "Windy",
-  "val": 21.5,
+  "val": 24.375,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001857.png?updatedAt=1747837170705",
 "rarity": "epic"
 },
 {
   "name": "Smoked",
-  "val": 20,
+  "val": 22.75,
   "crate": "megarock",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20001904.png?updatedAt=1747837170694",
 "rarity": "epic"
@@ -353,14 +353,14 @@
 },
 {
   "name": "Fractal",
-  "val": 25,
+  "val": 27.625,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064635.png?updatedAt=1747837225487",
 "rarity": "epic"
 },
 {
   "name": "Gravity",
-  "val": 26,
+  "val": 27.625,
   "crate": "bob",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20064622.png?updatedAt=1747837225385",
 "rarity": "epic"
@@ -1023,7 +1023,7 @@
 },
 {
 "name": "Easterbasket",
-"val": 585,
+"val": 650,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070108.png?updatedAt=1747837362722",
 "rarity": "legendary"
@@ -1034,8 +1034,8 @@
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
 "rarity": "mythical",
-"chartData": [9110, 9100, 9700, 10725, 11050],
-"chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25", "10/22/25"]
+"chartData": [9110, 9100, 9700, 10725, 11050, 12675],
+"chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25", "10/22/25", "11/9/25"]
 },
 {
 "name": "DustBomb",
@@ -1130,7 +1130,7 @@
 },
 {
 "name": "Groggy",
-"val":  390,
+"val":  455,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065838.png?updatedAt=1747837400912",
 "rarity": "legendary"
@@ -1195,19 +1195,19 @@
 },
 {
   "name": "Glitter",
-  "val": 487.5,
+  "val": 585,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065109.png?updatedAt=1747837429142",
 "rarity": "legendary"
 },
 {
   "name": "Haloheart",
-  "val": 7475,
+  "val": 7800,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
   "rarity": "mythical",
-"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825, 7475],
-"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25", "10/31/25"]
+"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825, 7475, 7800],
+"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25", "10/31/25", "11/9/25"]
 },
 {
   "name": "Starrynight",
@@ -1295,33 +1295,33 @@
 },
 {
   "name": "Peppermint",
-  "val": 650,
+  "val": 715,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065319.png?updatedAt=1747837473067",
 "rarity": "legendary"
 },
 {
   "name": "Blizzard",
-  "val": 552.5,
+  "val": 617.5,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065327.png?updatedAt=1747837472948",
 "rarity": "legendary"
 },
 {
   "name": "Sacred",
-  "val": 715,
+  "val": 812.5,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065334.png?updatedAt=1747837473201",
 "rarity": "legendary"
 },
 {
   "name": "Enchanted",
-  "val": 8125,
+  "val": 8775,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065342.png?updatedAt=1747837473097",
 "rarity": "mythical",
-"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475, 7800, 8125],
-"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25", "10/27/25", "11/4/25"]
+"chartData": [7300, 7650, 8000, 7710, 7150, 6825, 6175, 7150, 7475, 7800, 8125, 8775],
+"chartLabels": ["6/15/25", "6/27/25", "7/11/25", "7/25/25", "8/1/25", "10/13/25", "10/18/25", "10/21/25", "10/25/25", "10/27/25", "11/4/25", "11/9/25"]
 },
 {
   "name": "Trollrequiem",
