@@ -695,11 +695,11 @@
 },
 {
 "name": "Necrobloxicon",
-"val": 12025,
+"val": 13000,
 "crate": "coffin",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190717.png?updatedAt=1761617253715",
 "rarity": "mythical",
-"chartData": [13000, 12025],
+"chartData": [13000, 12025, 13000],
 "chartLabels": ["10/27/25", "10/29/25"]
 },
 {
@@ -823,7 +823,7 @@
 },
 {
 "name": "Dodecanado",
-"val": 13325,
+"val": 14625,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
 "rarity": "mythical",
@@ -1030,11 +1030,11 @@
 },
 {
 "name": "Eastereggtravaganza",
-"val": 11050,
+"val": 13000,
 "crate": "easter",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
 "rarity": "mythical",
-"chartData": [9110, 9100, 9700, 10725, 11050, 12675],
+"chartData": [9110, 9100, 9700, 10725, 11050, 13000],
 "chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25", "10/22/25", "11/9/25"]
 },
 {
