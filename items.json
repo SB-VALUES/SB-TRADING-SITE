@@ -700,7 +700,7 @@
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190717.png?updatedAt=1761617253715",
 "rarity": "mythical",
 "chartData": [13000, 12025, 13000],
-"chartLabels": ["10/27/25", "10/29/25"]
+"chartLabels": ["10/27/25", "10/29/25", "11/15/25"]
 },
 {
 "name": "StabbingNails",
@@ -827,8 +827,8 @@
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
 "rarity": "mythical",
-"chartData": [9475, 10725, 11375, 11700, 12025, 13325],
-"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25", "10/25/25"]
+"chartData": [9475, 10725, 11375, 11700, 12025, 13325, 14625],
+"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25", "10/25/25", "11/15/25"]
 },
 {
 "name": "TomeBurst",
@@ -1035,7 +1035,7 @@
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070115.png?updatedAt=1747837362507",
 "rarity": "mythical",
 "chartData": [9110, 9100, 9700, 10725, 11050, 13000],
-"chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25", "10/22/25", "11/9/25"]
+"chartLabels": ["7/4/25", "8/1/25", "9/10/25", "10/8/25", "10/22/25", "11/9/25", "11/15/25"]
 },
 {
 "name": "DustBomb",
@@ -1144,12 +1144,12 @@
 },
 {
 "name": "SaintMarked",
-"val": 19500,
+"val": 20475,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
 "rarity": "mythical",
-"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175, 19500],
-"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25", "11/4/25"]
+"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175, 19500, 20475],
+"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25", "11/4/25", "11/15/25"]
 },
 {
   "name": "Roses",
@@ -1416,7 +1416,7 @@
 },
 {
   "name": "EerieFog",
-  "val": 17225,
+  "val": 13000,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065551.png?updatedAt=1747837507356",
 "rarity": "legendary"
@@ -1488,7 +1488,7 @@
 },
 {
   "name": "Hitman",
-  "val": 12025,
+  "val": 13325,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070246.png?updatedAt=1747837531713",
 "rarity": "legendary"
