@@ -695,12 +695,12 @@
 },
 {
 "name": "Necrobloxicon",
-"val": 17550,
+"val": 19175,
 "crate": "coffin",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-10-27%20190717.png?updatedAt=1761617253715",
 "rarity": "mythical",
-"chartData": [13000, 12025, 13000, 13650, 15275, 16250, 17550],
-"chartLabels": ["10/27/25", "10/29/25", "11/15/25", "11/20/25", "11/25/25", "12/1/25"]
+"chartData": [13000, 12025, 13000, 13650, 15275, 16250, 17550, 19175],
+"chartLabels": ["10/27/25", "10/29/25", "11/15/25", "11/20/25", "11/25/25", "12/1/25", "12/6/25"]
 },
 {
 "name": "StabbingNails",
@@ -823,12 +823,12 @@
 },
 {
 "name": "Dodecanado",
-"val": 19175,
+"val": 21450,
 "crate": "evil-barzil",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-08-15%20075626.png?updatedAt=1755270201183",
 "rarity": "mythical",
-"chartData": [9475, 10725, 11375, 11700, 12025, 13325, 14625, 15600, 16250, 19175],
-"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25", "10/25/25", "11/15/25", "11/20/25", "11/25/25", "12/1/25"]
+"chartData": [9475, 10725, 11375, 11700, 12025, 13325, 14625, 15600, 16250, 19175, 21450],
+"chartLabels": ["8/15/25", "8/29/25", "9/8/25", "10/9/25", "10/19/25", "10/25/25", "11/15/25", "11/20/25", "11/25/25", "12/1/25", "12/6/25"]
 },
 {
 "name": "TomeBurst",
@@ -930,12 +930,12 @@
 },
 {
 "name": "Pandecrownium", 
-"val": 19175,
+"val": 22750,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194908.png?updatedAt=1748404334093",
 "rarity": "mythical",
-"chartData": [15600, 14950, 15275, 15925, 17225, 17875, 19175, 26000, 19175, 16900, 17875, 19175],
-"chartLabels": ["9/8/25", "9/19/25", "10/6/25", "10/10/25", "10/15/25", "10/17/25", "10/18/25", "10/19/25", "10/21/25", "10/22/25", "11/25/25", "12/1/25"]
+"chartData": [15600, 14950, 15275, 15925, 17225, 17875, 19175, 26000, 19175, 16900, 17875, 21775, 22750],
+"chartLabels": ["9/8/25", "9/19/25", "10/6/25", "10/10/25", "10/15/25", "10/17/25", "10/18/25", "10/19/25", "10/21/25", "10/22/25", "11/25/25", "12/1/25", "12/6/25"]
 },
 {
 "name": "PastelConfetti",
@@ -1144,12 +1144,12 @@
 },
 {
 "name": "SaintMarked",
-"val": 34125,
+"val": 43875,
 "crate": "patrick",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065854.png?updatedAt=1747837400911",
 "rarity": "mythical",
-"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175, 19500, 20475, 21125, 26000, 34125],
-"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25", "11/4/25", "11/15/25", "11/25/25", "12/1/25"]
+"chartData": [15800, 15350, 14300, 16250, 16575, 17225, 18850, 19175, 19500, 20475, 21125, 26000, 34125, 43875],
+"chartLabels": ["711/25", "8/1/25", "8/5/25", "9/19/25", "10/6/25", "10/22/25", "10/25/25", "10/26/25", "11/4/25", "11/15/25", "11/25/25", "12/1/25", "12/6/25"]
 },
 {
   "name": "Roses",
@@ -1202,12 +1202,12 @@
 },
 {
   "name": "Haloheart",
-  "val": 12025,
+  "val": 13000,
   "crate": "valentines",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065117.png?updatedAt=1747837429285",
   "rarity": "mythical",
-"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825, 7475, 7800, 8775, 9750, 12025],
-"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25", "10/31/25", "11/9/25", "11/25/25", "12/1/25"]
+"chartData": [2750, 2990, 2925, 3250, 3575, 3900, 6500, 6825, 7475, 7800, 8775, 9750, 12025, 13000],
+"chartLabels": ["7/18/25", "8/1/25", "8/5/25", "8/29/25", "9/13/25", "9/19/25", "10/9/25", "10/31/25", "11/9/25", "11/25/25", "12/1/25", "12/6/25"]
 },
 {
   "name": "Starrynight",
@@ -1309,7 +1309,7 @@
 },
 {
   "name": "Sacred",
-  "val": 975,
+  "val": 1300,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065334.png?updatedAt=1747837473201",
 "rarity": "legendary"
@@ -1395,7 +1395,7 @@
 },
 {
   "name": "CrimsonSplash",
-  "val": 1600,
+  "val": 5850,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065530.png?updatedAt=1747837507085",
 "rarity": "epic"
@@ -1409,7 +1409,7 @@
 },
 {
   "name": "Abyss",
-  "val": 1700,
+  "val": 2600,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065543.png?updatedAt=1747837507172",
 "rarity": "epic"
@@ -1430,58 +1430,58 @@
 },
 {
   "name": "Damned",
-  "val": 162500,
+  "val": 178750,
   "crate": "jack",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065626.png?updatedAt=1747837507315",
 "rarity": "mythical",
-"chartData": [35000, 31800, 29400, 26400, 17062, 15725, 86125, 105625, 130000, 162500],
-"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25", "10/20/25", "10/30/25", "11/20/25", "12/1/25"]
+"chartData": [35000, 31800, 29400, 26400, 17062, 15725, 86125, 105625, 130000, 162500, 178750],
+"chartLabels": ["6/15/25", "7/25/25", "8/1/25", "8/5/25", "8/15/25", "9/15/25", "10/20/25", "10/30/25", "11/20/25", "12/1/25", "12/6/25"]
 },
 {
   "name": "Smartcat",
-  "val": 80,
+  "val": 325,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070153.png?updatedAt=1747837531697",
 "rarity": "uncommon"
 },
 {
   "name": "Dumbcat",
-  "val": 83,
+  "val": 325,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070206.png?updatedAt=1747837531859",
 "rarity": "uncommon"
 },
 {
   "name": "Garbage",
-  "val": 78,
+  "val": 325,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070213.png?updatedAt=1747837531937",
 "rarity": "uncommon"
 },
 {
   "name": "Minicrit",
-  "val": 78,
+  "val": 292.5,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070220.png?updatedAt=1747837531922",
 "rarity": "uncommon"
 },
 {
   "name": "PixelSparkles",
-  "val": 295,
+  "val": 487.5,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070226.png?updatedAt=1747837532040",
 "rarity": "rare"
 },
 {
   "name": "Chip",
-  "val": 300,
+  "val": 455,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070232.png?updatedAt=1747837532035",
 "rarity": "rare"
 },
 {
   "name": "Divergent",
-  "val": 1550,
+  "val": 2275,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070240.png?updatedAt=1747837531946",
 "rarity": "epic"
@@ -1495,11 +1495,11 @@
 },
 {
   "name": "Relude",
-  "val": 130000,
+  "val": 146250,
   "crate": "guide",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20070254.png?updatedAt=1747837531849",
 "rarity": "mythical",
-"chartData": [33700, 42900, 43875, 42000, 48750, 84500, 97500, 130000],
-"chartLabels": ["7/25/25", "9/8/25", "9/9/25", "9/12/25", "9/13/25", "10/15/25", "10/30/25", "12/1/25"]
+"chartData": [33700, 42900, 43875, 42000, 48750, 84500, 97500, 130000, 146250],
+"chartLabels": ["7/25/25", "9/8/25", "9/9/25", "9/12/25", "9/13/25", "10/15/25", "10/30/25", "12/1/25", "12/6/25"]
 }
 ]
