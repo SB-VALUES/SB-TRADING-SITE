@@ -916,7 +916,7 @@
 },
 {
 "name": "VirulentCongregation",
-"val": 455,
+"val": 422.5,
 "crate": "alchemist",
 "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-27%20194835.png?updatedAt=1748404334082",
 "rarity": "legendary"
@@ -1295,14 +1295,14 @@
 },
 {
   "name": "Peppermint",
-  "val": 715,
+  "val": 877.5,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065319.png?updatedAt=1747837473067",
 "rarity": "legendary"
 },
 {
   "name": "Blizzard",
-  "val": 650,
+  "val": 682.5,
   "crate": "peepmas",
   "url": "https://ik.imagekit.io/qhig1xz2i/Screenshot%202025-05-21%20065327.png?updatedAt=1747837472948",
 "rarity": "legendary"
