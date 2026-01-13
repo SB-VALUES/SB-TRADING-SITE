@@ -595,3 +595,10 @@ glowOrbs.forEach(orb => {
     orb.style.left = `${Math.random()*100}%`;
     orb.style.boxShadow = `0 0 250px 50px rgb(${Math.random()*150} ${Math.random()*150} 255)`;
 })
+
+document.getElementById("new-site").showModal();
+document.getElementById("body").style.overflowY = "hidden";
+document.getElementById("ignore").addEventListener("click", () => {
+    document.getElementById("new-site").close();
+    document.getElementById("body").style.overflowY = "scroll";
+});
